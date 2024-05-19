@@ -1,12 +1,9 @@
 {
-    "name": "LoveAndLogos",
-    "rootNamespace": "LoveAndLogos",
-    "references": [
-        "GUID:d525ad6bd40672747bde77962f1c401e"
-    ],
+    "name": "AYellowpaper.SerializedCollections",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": true,
+    "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,

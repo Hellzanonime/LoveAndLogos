@@ -107,7 +107,16 @@ namespace VNCreator
                 }
             );
             
-            
+            IntegerField affinityCharaBonusField = this.Query<IntegerField>("Affinity_Bonus");
+            affinityCharaBonusField.value = node.nodeData.affinityBonus.bonusAmount;
+            affinityCharaBonusField.SetEnabled(false);
+            affinityCharaBonusField.RegisterValueChangedCallback(
+                e =>
+                {
+                    node.nodeData.affinityBonus.bonusAmount = affinityCharaBonusField.value;
+                }
+            );
+
             // Affinity System
             EnumField affinityLoveInterrestField = this.Query<EnumField>("Affinity_LoveInterest");
             affinityLoveInterrestField.Init(LoveInterests.None);
@@ -116,17 +125,11 @@ namespace VNCreator
                 e =>
                 {
                     node.nodeData.affinityBonus.loveInterest = (LoveInterests)affinityLoveInterrestField.value;
+                    affinityCharaBonusField.SetEnabled((LoveInterests)affinityLoveInterrestField.value != LoveInterests.None);
                 }
             );
             
-            IntegerField affinityCharaBonusField = this.Query<IntegerField>("Affinity_Bonus");
-            affinityCharaBonusField.value = node.nodeData.affinityBonus.bonusAmount;
-            affinityCharaBonusField.RegisterValueChangedCallback(
-                e =>
-                {
-                    node.nodeData.affinityBonus.bonusAmount = affinityCharaBonusField.value;
-                }
-            );
+           
         }
     }
 #endif

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using LoveAndLogos;
@@ -49,7 +50,8 @@ namespace VNCreator
                 // Affinity System
                 if (currentNode.affinityBonus.loveInterest != LoveInterests.None)
                 {
-                    // TODO branch to Affinity System
+                    Debug.Log("Affinity updated : " + currentNode.affinityBonus.loveInterest);
+                    AffinitySystem.UpdateAffinity(currentNode.affinityBonus.loveInterest,currentNode.affinityBonus.bonusAmount);
                 }
             }
         }
