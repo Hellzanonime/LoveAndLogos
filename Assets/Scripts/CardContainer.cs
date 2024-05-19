@@ -5,6 +5,7 @@ using DefaultNamespace;
 using events;
 using UnityEngine;
 using UnityEngine.UI;
+using VNCreator.VNCreator.Behaviors;
 
 public class CardContainer : MonoBehaviour {
     [Header("Constraints")]
@@ -34,11 +35,13 @@ public class CardContainer : MonoBehaviour {
 
     [SerializeField]
     private CardPlayConfig cardPlayConfig;
-    
+
     [Header("Events")]
     [SerializeField]
     private EventsConfig eventsConfig;
-    
+
+    [Header("VN")] [SerializeField] private VNCreator_DisplayUI DisplayUI;
+
     private List<CardWrapper> cards = new();
 
     private RectTransform rectTransform;
@@ -216,22 +219,37 @@ public class CardContainer : MonoBehaviour {
         // If card is in play area, play it!
         if (IsCursorInPlayArea()) {
             eventsConfig?.OnCardPlayed?.Invoke(new CardPlayed(currentDraggedCard));
+            var vnCardChoiceCard = (VNCardChoiceWrapper)currentDraggedCard;
+            if (vnCardChoiceCard)
+            {
+                eventsConfig?.OnCardChoicePlayed?.Invoke(new CardChoicePlayed(vnCardChoiceCard));
+            }
             if (cardPlayConfig.destroyOnPlay) {
                 DestroyCard(currentDraggedCard);
             }
         }
         currentDraggedCard = null;
     }
-    
+
     public void DestroyCard(CardWrapper card) {
         cards.Remove(card);
         eventsConfig.OnCardDestroy?.Invoke(new CardDestroy(card));
         Destroy(card.gameObject);
     }
 
+    public void NextNode(VNCardChoiceWrapper cardChosen)
+    {
+        DisplayUI.NextNode(cardChosen._ChoiceNumber);
+        foreach (var card in cards)
+        {
+            DestroyCard(card);
+        }
+        cards.Clear();
+    }
+
     private bool IsCursorInPlayArea() {
         if (cardPlayConfig.playArea == null) return false;
-        
+    
         var cursorPosition = Input.mousePosition;
         var playArea = cardPlayConfig.playArea;
         var playAreaCorners = new Vector3[4];
@@ -240,6 +258,6 @@ public class CardContainer : MonoBehaviour {
                cursorPosition.x < playAreaCorners[2].x &&
                cursorPosition.y > playAreaCorners[0].y &&
                cursorPosition.y < playAreaCorners[2].y;
-        
+    
     }
 }
