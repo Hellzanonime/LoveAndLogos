@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using LoveAndLogos;
 using UnityEngine;
 
 namespace VNCreator
@@ -44,6 +45,12 @@ namespace VNCreator
                 currentNode = story.GetNextNode(currentNode.guid, _choiceId);
                 lastNode = currentNode.endNode;
                 loadList.Add(currentNode.guid);
+                
+                // Affinity System
+                if (currentNode.affinityBonus.loveInterest != LoveInterests.None)
+                {
+                    // TODO branch to Affinity System
+                }
             }
         }
 

@@ -10,6 +10,7 @@ using System;
 #if UNITY_EDITOR
 using UnityEditor.UIElements;
 #endif
+using LoveAndLogos;
 
 namespace VNCreator
 {
@@ -103,6 +104,27 @@ namespace VNCreator
                 {
                     node.nodeData.backgroundSpr = (Sprite)e.newValue;
                     backSprDisplay.style.backgroundImage = node.nodeData.backgroundSpr ? node.nodeData.backgroundSpr.texture : null;
+                }
+            );
+            
+            
+            // Affinity System
+            EnumField affinityLoveInterrestField = this.Query<EnumField>("Affinity_LoveInterest");
+            affinityLoveInterrestField.Init(LoveInterests.None);
+            affinityLoveInterrestField.value = node.nodeData.affinityBonus.loveInterest;
+            affinityLoveInterrestField.RegisterCallback<ChangeEvent<Enum>>(
+                e =>
+                {
+                    node.nodeData.affinityBonus.loveInterest = (LoveInterests)affinityLoveInterrestField.value;
+                }
+            );
+            
+            IntegerField affinityCharaBonusField = this.Query<IntegerField>("Affinity_Bonus");
+            affinityCharaBonusField.value = node.nodeData.affinityBonus.bonusAmount;
+            affinityCharaBonusField.RegisterValueChangedCallback(
+                e =>
+                {
+                    node.nodeData.affinityBonus.bonusAmount = affinityCharaBonusField.value;
                 }
             );
         }

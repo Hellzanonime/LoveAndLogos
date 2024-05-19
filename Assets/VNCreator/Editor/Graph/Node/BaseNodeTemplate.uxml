@@ -19,6 +19,9 @@
 			<editor:ObjectField name="Sound_Field" class="sound_selector"/>
 			<engine:Label text="Background Music" class="min_header"/>
 			<editor:ObjectField name="Music_Field" class="music_selector"/>
+			<engine:Label text="Affinity System" class="min_header"/>
+			<engine:EnumField name="Affinity_LoveInterest" type="VNCreator.LoveInterests,Assembly-CSharp" class="enum_field"/>
+			<engine:IntegerField name="Affinity_Bonus" class="integer_field"/>
 		</engine:VisualElement>
 	</engine:VisualElement>
 </engine:UXML>

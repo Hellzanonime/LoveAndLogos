@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using LoveAndLogos;
 using UnityEngine;
+
 
 namespace VNCreator
 {
@@ -19,6 +21,7 @@ namespace VNCreator
         public Rect nodePosition;
         public AudioClip soundEffect;
         public AudioClip backgroundMusic;
+        public AffinityBonus affinityBonus;
 
         public NodeData()
         {
