@@ -1,5 +1,3 @@
-using DefaultNamespace;
-
 namespace LoveAndLogos
 {
     public struct AffinityBonus
