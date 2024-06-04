@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9129745927521240616}
   - component: {fileID: 8557600276625839335}
   - component: {fileID: 7978748058807121583}
+  - component: {fileID: 5445693507092035831}
   m_Layer: 5
   m_Name: CardDialogueFriendly
   m_TagString: Untagged
@@ -78,6 +79,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5445693507092035831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435190886968381922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc09d07f5fb41f9bd046ff8ab419dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardType: 1
 --- !u!1 &1529026078214608451
 GameObject:
   m_ObjectHideFlags: 0

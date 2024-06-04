@@ -4,11 +4,8 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using AYellowpaper.SerializedCollections;
-using LoveAndLogos.Events;
-// Uncomment or delete this when assembly definitions are fixed
-/*using CardPlay;
-using CardPlay.Events;*/
 
+// namespace LoveAndLogos
 namespace LoveAndLogos
 {
     public class CardDeckManager : MonoBehaviour
@@ -63,27 +60,16 @@ namespace LoveAndLogos
         private String _GetDescription(CardType cardType)
         {
             // TODO
-            return
-                "Placeholder description with card text. Will get extracted from the CardType + Context combination in the future";
+            return "("+ cardType + ") " +
+                   "Placeholder description with card text. Will get extracted from the CardType + Context combination in the future";
         }
-        
-        // Uncomment this when CardPlay.Events.CardHover becomes accessible
-        /*public void OnCardHover(CardHover cardHover) {
-            print(cardHover);
-            ShowHoveringDescription(cardHover);
-        }*/
-        
-        public void OnCardUnhover() {
-            HideHoveringDescription();
-        }
-        
+
         /*
          * Show a small text of what the card description is in this context
          * @param   int    indexInHand    the index of the hovered card in hand, from left to right, including 0
          */
-        public void ShowHoveringDescription(PlayableCardHover cardHover)
+        public void ShowHoveringDescription(CardType cardType)
         {
-            var cardType = cardHover.cardType;
             var description = _GetDescription(cardType);
             
             // hoveringDescriptionText [should be equal to] hoveringDescriptionBox.transform.GetChild(0).gameObject.GetComponent<Text>()

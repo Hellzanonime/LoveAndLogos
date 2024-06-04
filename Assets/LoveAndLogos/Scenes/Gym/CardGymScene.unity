@@ -1102,8 +1102,8 @@ MonoBehaviour:
     OnCardHover:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 573592904}
-          m_TargetAssemblyTypeName: CardPlay.Demo.ClonePreviewManager, CardPlay
+        - m_Target: {fileID: 650242965}
+          m_TargetAssemblyTypeName: CardPlay.CardEventManager, CardPlay
           m_MethodName: OnCardHover
           m_Mode: 0
           m_Arguments:
@@ -1117,8 +1117,8 @@ MonoBehaviour:
     OnCardUnhover:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 650242964}
-          m_TargetAssemblyTypeName: LoveAndLogos.CardDeckManager, LoveAndLogos
+        - m_Target: {fileID: 650242965}
+          m_TargetAssemblyTypeName: CardPlay.CardEventManager, CardPlay
           m_MethodName: OnCardUnhover
           m_Mode: 1
           m_Arguments:
@@ -2049,6 +2049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 650242963}
   - component: {fileID: 650242964}
+  - component: {fileID: 650242965}
   m_Layer: 0
   m_Name: card-deck-manager
   m_TagString: Untagged
@@ -2094,6 +2095,19 @@ MonoBehaviour:
       Value: {fileID: 1435190886968381922, guid: 405a8ef45c46f5f40b729647e76c8bff, type: 3}
     - Key: 2
       Value: {fileID: 1435190886968381922, guid: 0256fd8be0c551447866f22201f6afa8, type: 3}
+--- !u!114 &650242965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650242962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c553591f2b482c9eb5495fad1ef8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cardDeckManager: {fileID: 650242964}
 --- !u!1 &686261077
 GameObject:
   m_ObjectHideFlags: 0

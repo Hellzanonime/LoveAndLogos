@@ -2,6 +2,7 @@ using CardPlay.Config;
 using CardPlay.Events;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using LoveAndLogos;
 
 namespace CardPlay
 {
@@ -26,12 +27,15 @@ namespace CardPlay
     private Vector2 dragStartPos;
     public EventsConfig eventsConfig;
 
+    public PlayableCard playableCard;
+
     public float width {
         get => rectTransform.rect.width * rectTransform.localScale.x;
     }
 
     private void Awake() {
         rectTransform = GetComponent<RectTransform>();
+        playableCard = GetComponent<PlayableCard>();
     }
 
     private void Start() {
@@ -118,6 +122,7 @@ namespace CardPlay
             canvas.sortingOrder = zoomConfig.zoomedSortOrder;
         }
 
+        // eventsConfig?.OnCardHover?.Invoke(new CardHover(this));
         eventsConfig?.OnCardHover?.Invoke(new CardHover(this));
         isHovered = true;
     }
