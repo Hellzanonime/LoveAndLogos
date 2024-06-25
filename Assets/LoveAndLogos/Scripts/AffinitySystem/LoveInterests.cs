@@ -4,6 +4,7 @@ namespace LoveAndLogos
     {
         None,
         Plato,
-        Alexander
+        Alexander,
+        Sappho
     }
 }

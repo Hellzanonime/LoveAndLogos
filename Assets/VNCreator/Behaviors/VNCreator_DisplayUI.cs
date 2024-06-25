@@ -27,6 +27,16 @@ namespace VNCreator
         public Button choiceBtn1;
         public Button choiceBtn2;
         public Button choiceBtn3;
+        //modif here
+        [Header("Card stuff")]
+        public Button cardBtn;
+        public GameObject Cards;
+        [SerializeField]
+        private Text hoverTxt;
+        [Header("Sounds stuff")]
+        public VNCreator_SfxSource vnSFX;
+        //public VNCreator_MusicSource vnMusic;
+        //end modif
         [Header("End")]
         public GameObject endScreen;
         [Header("Main menu")]
@@ -52,6 +62,18 @@ namespace VNCreator
 
             endScreen.SetActive(false);
 
+            StartCoroutine(DisplayCurrentNode());
+        }
+
+        public void PlayNextNode(int nodeID)
+        {
+            if (lastNode)
+            {
+                endScreen.SetActive(true);
+                return;
+            }
+
+            base.NextNode(nodeID);
             StartCoroutine(DisplayCurrentNode());
         }
 
@@ -85,7 +107,10 @@ namespace VNCreator
             if (currentNode.choices <= 1) 
             {
                 nextBtn.gameObject.SetActive(true);
-
+                // modif here
+                cardBtn.gameObject.SetActive(false);
+                Cards.SetActive(false);
+                // end motif
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
                 choiceBtn3.gameObject.SetActive(false);
@@ -95,29 +120,48 @@ namespace VNCreator
             else
             {
                 nextBtn.gameObject.SetActive(false);
-
-                choiceBtn1.gameObject.SetActive(true);
+                // modif here
+                cardBtn.gameObject.SetActive(true);
+                Cards.SetActive(true );
+                choiceBtn1.gameObject.SetActive(false);
+                choiceBtn2.gameObject.SetActive(false);
+                // end motif
+                /*choiceBtn1.gameObject.SetActive(true);
                 choiceBtn1.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[0];
 
                 choiceBtn2.gameObject.SetActive(true);
-                choiceBtn2.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[1];
+                choiceBtn2.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[1];*/
 
                 if (currentNode.choices == 3)
                 {
-                    choiceBtn3.gameObject.SetActive(true);
-                    choiceBtn3.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[2];
+                    // modif here
+                    cardBtn.gameObject.SetActive(true);
+                    Cards.SetActive(true ) ;
+                    choiceBtn1.gameObject.SetActive(false);
+                    choiceBtn2.gameObject.SetActive(false);
+                    choiceBtn3.gameObject.SetActive(false);
+                    // end motif
+                    /*choiceBtn3.gameObject.SetActive(true);
+                    choiceBtn3.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[2];*/
                 }
                 else
                 {
                     choiceBtn3.gameObject.SetActive(false);
                 }
             }
-
-            if (currentNode.backgroundMusic != null)
-                VNCreator_MusicSource.instance.Play(currentNode.backgroundMusic);
+            //modife here
+            /*if (currentNode.backgroundMusic != null)
+            {
+                vnMusic.PlayMusicClip(currentNode.backgroundMusic);
+            }*/
+                //VNCreator_MusicSource.instance.Play(currentNode.backgroundMusic); */
             if (currentNode.soundEffect != null)
-                VNCreator_SfxSource.instance.Play(currentNode.soundEffect);
-
+            {
+                //soundEffectSource.PlayOneShot(currentNode.soundEffect);
+                vnSFX.PlayClip(currentNode.soundEffect);
+            }
+                //VNCreator_SfxSource.instance.Play(currentNode.soundEffect);
+            //end modif 
             dialogueTxt.text = string.Empty;
             if (GameOptions.isInstantText)
             {

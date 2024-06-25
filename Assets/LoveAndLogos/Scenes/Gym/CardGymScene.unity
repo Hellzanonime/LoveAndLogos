@@ -1995,7 +1995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &614953213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2008,7 +2008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: {fileID: 11400000, guid: ad4fb98f25cdb0042901de55f1f61669, type: 2}
+  story: {fileID: 11400000, guid: 04b0e95218ed4dc49935182e2f55160e, type: 2}
   characterNameTxt: {fileID: 1014305625}
   dialogueTxt: {fileID: 1982572869}
   characterImg: {fileID: 727042714}
@@ -2019,9 +2019,9 @@ MonoBehaviour:
   previousBtn: {fileID: 282966383}
   saveBtn: {fileID: 1152964491}
   menuButton: {fileID: 2129843806}
-  choiceBtn1: {fileID: 0}
-  choiceBtn2: {fileID: 0}
-  choiceBtn3: {fileID: 0}
+  choiceBtn1: {fileID: 2147329929}
+  choiceBtn2: {fileID: 2127439698}
+  choiceBtn3: {fileID: 116284269}
   endScreen: {fileID: 424783756}
   mainMenu: Assets/VNCreator/_Demo/Scenes/MainMenu.unity
 --- !u!4 &614953214
@@ -2107,7 +2107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c553591f2b482c9eb5495fad1ef8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardDeckManager: {fileID: 650242964}
 --- !u!1 &686261077
 GameObject:
   m_ObjectHideFlags: 0
@@ -2585,6 +2584,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880090554}
   m_CullTransparentMesh: 1
+--- !u!1001 &917277744
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1933063307462451087, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: affinityScores._serializedList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933063307462451087, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: affinityScores._serializedList.Array.data[0].Key
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933063307462451087, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: affinityScores._serializedList.Array.data[1].Key
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 231.06944
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 233.57683
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.760574
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686550245213425253, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
+      propertyPath: m_Name
+      value: AffinityManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
 --- !u!1 &933350159
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,7 +2993,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1039501068
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5283,3 +5351,4 @@ SceneRoots:
   - {fileID: 490143998}
   - {fileID: 1364501464}
   - {fileID: 614953214}
+  - {fileID: 917277744}

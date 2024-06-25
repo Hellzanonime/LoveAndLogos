@@ -8,6 +8,9 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
 using VNCreator.Editors.Graph;
+//modif here
+using LoveAndLogos;
+//end modif
 
 namespace VNCreator
 {
@@ -37,7 +40,10 @@ namespace VNCreator
                         choiceOptions = _node.nodeData.choiceOptions,
                         nodePosition = _node.GetPosition(),
                         soundEffect = _node.nodeData.soundEffect,
-                        backgroundMusic = _node.nodeData.backgroundMusic
+                        backgroundMusic = _node.nodeData.backgroundMusic,
+                        //modif here 
+                        affinityBonus = _node.nodeData.affinityBonus
+                        // end modif
                     });
             }
 

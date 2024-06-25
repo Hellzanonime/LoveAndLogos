@@ -12,5 +12,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: Demo_Story
   m_EditorClassIdentifier: 
-  links: []
-  nodes: []
+  links:
+  - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
+    targetGuid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
+    portId: 0
+  nodes:
+  - guid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
+    characterSpr: {fileID: 0}
+    characterName: test 2
+    dialogueText: test 2
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 261
+      y: 210
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
+    characterSpr: {fileID: 0}
+    characterName: 'start test '
+    dialogueText: test 1
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -333
+      y: 260
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

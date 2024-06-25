@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: LL_Prologue
+  m_EditorClassIdentifier: 
+  links:
+  - guid: 32873a2d-5211-453d-a29d-98443031699c
+    targetGuid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
+    portId: 0
+  - guid: 32873a2d-5211-453d-a29d-98443031699c
+    targetGuid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
+    portId: 1
+  - guid: 32873a2d-5211-453d-a29d-98443031699c
+    targetGuid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
+    portId: 2
+  - guid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
+    targetGuid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    portId: 3
+  - guid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    targetGuid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
+    portId: 4
+  - guid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
+    targetGuid: acff894c-2dee-429f-a244-e3681bb8eab1
+    portId: 5
+  - guid: acff894c-2dee-429f-a244-e3681bb8eab1
+    targetGuid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
+    portId: 6
+  - guid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
+    targetGuid: 3bbdb572-2762-4470-8dc0-bedb326b968a
+    portId: 7
+  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
+    targetGuid: ee048c36-6d3c-46de-b3d5-84c99def021e
+    portId: 8
+  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
+    targetGuid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
+    portId: 9
+  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
+    targetGuid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
+    portId: 10
+  - guid: ee048c36-6d3c-46de-b3d5-84c99def021e
+    targetGuid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
+    portId: 11
+  - guid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
+    targetGuid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
+    portId: 12
+  - guid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
+    targetGuid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
+    portId: 13
+  - guid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
+    targetGuid: 51ed933a-d292-403c-9459-33c208a540aa
+    portId: 14
+  - guid: 51ed933a-d292-403c-9459-33c208a540aa
+    targetGuid: 32873a2d-5211-453d-a29d-98443031699c
+    portId: 15
+  - guid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
+    targetGuid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
+    portId: 16
+  - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
+    targetGuid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
+    portId: 17
+  nodes:
+  - guid: 32873a2d-5211-453d-a29d-98443031699c
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: Which final am I taking first?
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - 'The guy talks way too much. (+S) '
+    - "I honestly don\u2019t understand any of it\u2026 (+A) "
+    - "If only someone could read it out loud for me\u2026 (+P) "
+    nodePosition:
+      serializedVersion: 2
+      x: 2426
+      y: 227
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: But blaming some ancient dude
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2939
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    characterSpr: {fileID: 0}
+    characterName: ?????
+    dialogueText: The library is closing! Please
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3465
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: 'With a heavy sigh, I begin '
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3987
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: acff894c-2dee-429f-a244-e3681bb8eab1
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: I must be taking longer than everyone
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4511
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: "Oh? There\u2019s another book on the ground."
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5030
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - tries to kick the book under the table
+    - sighs and bends down to pick the book up
+    - "My body feels so heavy\u2026"
+    nodePosition:
+      serializedVersion: 2
+      x: 5556
+      y: 227
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee048c36-6d3c-46de-b3d5-84c99def021e
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: Not mine so not my problem
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6091
+      y: -93
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I guess it\u2019s coming with me."
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6091
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I\u2019m still bending down under the t"
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6091
+      y: 547
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: "I\u2019m\u2026\r\nI feel like I\u2019m falling!\r\nI must have
+      hit my head really ha\r\n"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6622
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: 'Thankfully, it will all be over soon. Just a bit more, _____!
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 882
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 8300000, guid: 7e018a14a12dbc84a81741da56744f3b, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 51ed933a-d292-403c-9459-33c208a540aa
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: 'The pages are honestly blurring in front of my eyes.
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1402
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 8300000, guid: aa78d1ac7de3f5f44a67719dd09d73e4, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: 'At some point, I must have dozed off '
+    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 364
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 8300000, guid: 899d7fef1c29cd24d9ef66ba70f865d7, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 65891cf518bd3b94db168d52953d02ba, type: 3}
+  - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
+    characterSpr: {fileID: 0}
+    characterName: Player
+    dialogueText: While the rays of sunset
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -333
+      y: 260
+      width: 499
+      height: 320
+    soundEffect: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 1fe3882fe74b45040be91368bb7b825c, type: 3}
