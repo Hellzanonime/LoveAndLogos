@@ -5,8 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/LoveAndLogos/Scenes/LL_MainMenu.unity
+    guid: b6ed40647caa2624691fec04d17cb520
+  - enabled: 1
+    path: Assets/LoveAndLogos/Scenes/LL_Prologue.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 8f8215e7c8a82ae4d887becc388c9787, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ff956a6625b08d94c98273dd1c6c58e3, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 561fad97aeb36334090b1b3fab8b6b04, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 8e3fd52e092d16a45bc4e8a91903dc3f, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: f1037a26e87a6a14da3f77ee9207cdcd, type: 2}
