@@ -35,6 +35,8 @@ namespace VNCreator
         private Text hoverTxt;
         [Header("Sounds stuff")]
         public VNCreator_SfxSource vnSFX;
+        [Header("les choice text")]
+        public string[] choicesTxt;
         //public VNCreator_MusicSource vnMusic;
         //end modif
         [Header("End")]
@@ -61,7 +63,11 @@ namespace VNCreator
                 choiceBtn3.onClick.AddListener(delegate { NextNode(2); });
 
             endScreen.SetActive(false);
-
+            //modif here
+            /*choicesTxt[0] = " ";
+            choicesTxt[1] = " ";
+            choicesTxt[2] = " ";*/
+            //end modif 
             StartCoroutine(DisplayCurrentNode());
         }
 
@@ -74,6 +80,7 @@ namespace VNCreator
             }
 
             base.NextNode(nodeID);
+            //Debug.Log("le num du choix de la node : " + nodeID);
             StartCoroutine(DisplayCurrentNode());
         }
 
@@ -91,6 +98,8 @@ namespace VNCreator
 
         IEnumerator DisplayCurrentNode()
         {
+            //Debug.Log("displ current node : " + currentNode.dialogueText);
+            
             characterNameTxt.text = currentNode.characterName;
             if (currentNode.characterSpr != null)
             {
@@ -110,6 +119,8 @@ namespace VNCreator
                 // modif here
                 cardBtn.gameObject.SetActive(false);
                 Cards.SetActive(false);
+                //saveBtn.gameObject.SetActive(true);
+                //menuButton.gameObject.SetActive(true);
                 // end motif
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
@@ -125,6 +136,12 @@ namespace VNCreator
                 Cards.SetActive(true );
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
+                //modif here 
+                choicesTxt[0] = currentNode.choiceOptions[0];
+                choicesTxt[1] = currentNode.choiceOptions[1];
+                //end modif 
+                //saveBtn.gameObject .SetActive(false);
+                //menuButton.gameObject.SetActive(false);
                 // end motif
                 /*choiceBtn1.gameObject.SetActive(true);
                 choiceBtn1.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[0];
@@ -135,11 +152,18 @@ namespace VNCreator
                 if (currentNode.choices == 3)
                 {
                     // modif here
+                    //modif here 
+                    choicesTxt[0] = currentNode.choiceOptions[0];
+                    choicesTxt[1] = currentNode.choiceOptions[1];
+                    choicesTxt[2] = currentNode.choiceOptions[2];
+                    //end modif 
                     cardBtn.gameObject.SetActive(true);
                     Cards.SetActive(true ) ;
                     choiceBtn1.gameObject.SetActive(false);
                     choiceBtn2.gameObject.SetActive(false);
                     choiceBtn3.gameObject.SetActive(false);
+                    //saveBtn.gameObject.SetActive(false);
+                    //menuButton.gameObject.SetActive(false);
                     // end motif
                     /*choiceBtn3.gameObject.SetActive(true);
                     choiceBtn3.transform.GetChild(0).GetComponent<Text>().text = currentNode.choiceOptions[2];*/

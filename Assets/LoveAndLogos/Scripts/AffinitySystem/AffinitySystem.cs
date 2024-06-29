@@ -60,7 +60,8 @@ namespace LoveAndLogos
             affinityScores = new SerializedDictionary<LoveInterests, int>()
             {
                 { LoveInterests.Plato, 0},
-                { LoveInterests.Alexander , 0}
+                { LoveInterests.Alexander , 0},
+                { LoveInterests.Sappho , 0}
             };
         }
     }

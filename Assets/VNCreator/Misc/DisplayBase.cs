@@ -50,7 +50,7 @@ namespace VNCreator
                 // Affinity System
                 if (currentNode.affinityBonus.loveInterest != LoveInterests.None)
                 {
-                    Debug.Log("Affinity updated : " + currentNode.affinityBonus.loveInterest);
+                    //Debug.Log("Affinity updated : " + currentNode.affinityBonus.loveInterest);
                     AffinitySystem.UpdateAffinity(currentNode.affinityBonus.loveInterest,currentNode.affinityBonus.bonusAmount);
                 }
             }

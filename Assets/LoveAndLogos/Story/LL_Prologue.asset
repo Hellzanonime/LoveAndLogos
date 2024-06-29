@@ -13,326 +13,428 @@ MonoBehaviour:
   m_Name: LL_Prologue
   m_EditorClassIdentifier: 
   links:
-  - guid: 32873a2d-5211-453d-a29d-98443031699c
-    targetGuid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
-    portId: 0
-  - guid: 32873a2d-5211-453d-a29d-98443031699c
-    targetGuid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
-    portId: 1
-  - guid: 32873a2d-5211-453d-a29d-98443031699c
-    targetGuid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
-    portId: 2
-  - guid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
-    targetGuid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
-    portId: 3
-  - guid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
-    targetGuid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
-    portId: 4
-  - guid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
-    targetGuid: acff894c-2dee-429f-a244-e3681bb8eab1
-    portId: 5
-  - guid: acff894c-2dee-429f-a244-e3681bb8eab1
-    targetGuid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
-    portId: 6
-  - guid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
-    targetGuid: 3bbdb572-2762-4470-8dc0-bedb326b968a
-    portId: 7
-  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
-    targetGuid: ee048c36-6d3c-46de-b3d5-84c99def021e
-    portId: 8
-  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
-    targetGuid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
-    portId: 9
-  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
-    targetGuid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
-    portId: 10
-  - guid: ee048c36-6d3c-46de-b3d5-84c99def021e
-    targetGuid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
-    portId: 11
-  - guid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
-    targetGuid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
-    portId: 12
-  - guid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
-    targetGuid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
-    portId: 13
-  - guid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
-    targetGuid: 51ed933a-d292-403c-9459-33c208a540aa
-    portId: 14
-  - guid: 51ed933a-d292-403c-9459-33c208a540aa
-    targetGuid: 32873a2d-5211-453d-a29d-98443031699c
-    portId: 15
-  - guid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
-    targetGuid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
-    portId: 16
   - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
     targetGuid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
-    portId: 17
-  nodes:
+    portId: 0
+  - guid: 8becf1df-d670-45f9-a9a8-75d7bb031e6f
+    targetGuid: 475f9129-9404-4f5c-854d-b87417933f4f
+    portId: 1
+  - guid: 475f9129-9404-4f5c-854d-b87417933f4f
+    targetGuid: 32873a2d-5211-453d-a29d-98443031699c
+    portId: 2
   - guid: 32873a2d-5211-453d-a29d-98443031699c
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: Which final am I taking first?
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 3
-    choiceOptions:
-    - 'The guy talks way too much. (+S) '
-    - "I honestly don\u2019t understand any of it\u2026 (+A) "
-    - "If only someone could read it out loud for me\u2026 (+P) "
-    nodePosition:
-      serializedVersion: 2
-      x: 2426
-      y: 227
-      width: 499
-      height: 425
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    targetGuid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
+    portId: 3
+  - guid: 32873a2d-5211-453d-a29d-98443031699c
+    targetGuid: d816b66f-43eb-4bad-a54c-107aec559db9
+    portId: 4
+  - guid: 32873a2d-5211-453d-a29d-98443031699c
+    targetGuid: 9708138c-e47f-4a2a-add2-7d28651734b5
+    portId: 5
   - guid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: But blaming some ancient dude
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2939
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
-    characterSpr: {fileID: 0}
-    characterName: ?????
-    dialogueText: The library is closing! Please
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3465
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    targetGuid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    portId: 6
+  - guid: d816b66f-43eb-4bad-a54c-107aec559db9
+    targetGuid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    portId: 7
+  - guid: 9708138c-e47f-4a2a-add2-7d28651734b5
+    targetGuid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    portId: 8
   - guid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: 'With a heavy sigh, I begin '
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3987
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    targetGuid: acff894c-2dee-429f-a244-e3681bb8eab1
+    portId: 9
   - guid: acff894c-2dee-429f-a244-e3681bb8eab1
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: I must be taking longer than everyone
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4511
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    targetGuid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
+    portId: 10
   - guid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: "Oh? There\u2019s another book on the ground."
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5030
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 3bbdb572-2762-4470-8dc0-bedb326b968a
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: 
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 3
-    choiceOptions:
-    - tries to kick the book under the table
-    - sighs and bends down to pick the book up
-    - "My body feels so heavy\u2026"
-    nodePosition:
-      serializedVersion: 2
-      x: 5556
-      y: 227
-      width: 499
-      height: 425
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: ee048c36-6d3c-46de-b3d5-84c99def021e
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: Not mine so not my problem
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6091
-      y: -93
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: "I guess it\u2019s coming with me."
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6091
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: "I\u2019m still bending down under the t"
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6091
-      y: 547
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: "I\u2019m\u2026\r\nI feel like I\u2019m falling!\r\nI must have
-      hit my head really ha\r\n"
-    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6622
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: 'Thankfully, it will all be over soon. Just a bit more, _____!
-
-'
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 882
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 8300000, guid: 7e018a14a12dbc84a81741da56744f3b, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: 51ed933a-d292-403c-9459-33c208a540aa
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: 'The pages are honestly blurring in front of my eyes.
-
-'
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1402
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 8300000, guid: aa78d1ac7de3f5f44a67719dd09d73e4, type: 3}
-    backgroundMusic: {fileID: 0}
+    targetGuid: 58328292-70cd-4716-9a47-c2c9e4f19832
+    portId: 11
   - guid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
-    characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: 'At some point, I must have dozed off '
-    backgroundSpr: {fileID: 21300000, guid: 45b62409cd6dfa948bdb7a050e2bf033, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 364
-      y: 227
-      width: 499
-      height: 320
-    soundEffect: {fileID: 8300000, guid: 899d7fef1c29cd24d9ef66ba70f865d7, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 65891cf518bd3b94db168d52953d02ba, type: 3}
+    targetGuid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
+    portId: 12
+  - guid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
+    targetGuid: 82b833f3-ba0a-402e-b05e-bcf467f1254e
+    portId: 13
+  - guid: 82b833f3-ba0a-402e-b05e-bcf467f1254e
+    targetGuid: 8becf1df-d670-45f9-a9a8-75d7bb031e6f
+    portId: 14
+  - guid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    targetGuid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
+    portId: 15
+  - guid: 58328292-70cd-4716-9a47-c2c9e4f19832
+    targetGuid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
+    portId: 16
+  - guid: 58328292-70cd-4716-9a47-c2c9e4f19832
+    targetGuid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
+    portId: 17
+  - guid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
+    targetGuid: 365c653f-7a0c-47b1-a45a-7d37d3dd0a01
+    portId: 18
+  - guid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
+    targetGuid: 8c43a4a5-1b4c-4462-a65c-6e8db99823c7
+    portId: 19
+  - guid: 365c653f-7a0c-47b1-a45a-7d37d3dd0a01
+    targetGuid: 6bc365b4-7a33-47b3-8d13-017d839827f4
+    portId: 20
+  - guid: 8c43a4a5-1b4c-4462-a65c-6e8db99823c7
+    targetGuid: 6bc365b4-7a33-47b3-8d13-017d839827f4
+    portId: 21
+  - guid: 6bc365b4-7a33-47b3-8d13-017d839827f4
+    targetGuid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
+    portId: 22
+  - guid: c3f7af0b-e4b0-496b-9211-c28d5be01ca3
+    targetGuid: 7af05a8b-1172-4da6-82ba-b1719d63bf9e
+    portId: 23
+  - guid: 7af05a8b-1172-4da6-82ba-b1719d63bf9e
+    targetGuid: 56dace26-b5f4-4018-ae74-02bee8d3b8f6
+    portId: 24
+  - guid: 56dace26-b5f4-4018-ae74-02bee8d3b8f6
+    targetGuid: cf511a3a-d676-4caa-a8de-e7ba77680d51
+    portId: 25
+  - guid: cf511a3a-d676-4caa-a8de-e7ba77680d51
+    targetGuid: 323400a1-d620-444c-b6ca-1a76f5b91367
+    portId: 26
+  - guid: 323400a1-d620-444c-b6ca-1a76f5b91367
+    targetGuid: 5682adb0-5e64-4ca5-b0dc-469d6d400cb2
+    portId: 27
+  - guid: 5682adb0-5e64-4ca5-b0dc-469d6d400cb2
+    targetGuid: 630887cb-e1e7-4991-8acd-2ccd885d8831
+    portId: 28
+  - guid: 630887cb-e1e7-4991-8acd-2ccd885d8831
+    targetGuid: 115bc56a-213f-46f3-9b54-6708a2904284
+    portId: 29
+  - guid: 630887cb-e1e7-4991-8acd-2ccd885d8831
+    targetGuid: 115bc56a-213f-46f3-9b54-6708a2904284
+    portId: 30
+  - guid: 630887cb-e1e7-4991-8acd-2ccd885d8831
+    targetGuid: 115bc56a-213f-46f3-9b54-6708a2904284
+    portId: 31
+  - guid: 115bc56a-213f-46f3-9b54-6708a2904284
+    targetGuid: 1d8968f8-f805-4366-a1e4-17be03e8a23a
+    portId: 32
+  - guid: 1d8968f8-f805-4366-a1e4-17be03e8a23a
+    targetGuid: ba606330-ca9c-4d76-96d5-74f59f8dd3cb
+    portId: 33
+  - guid: ba606330-ca9c-4d76-96d5-74f59f8dd3cb
+    targetGuid: 6299468d-47e3-4d98-9e5e-5b2e7e59e5eb
+    portId: 34
+  - guid: 2a670c17-b362-4151-83f3-b49463a72f7f
+    targetGuid: 9b008430-59e5-4b89-8c27-ad200922808f
+    portId: 35
+  - guid: 6299468d-47e3-4d98-9e5e-5b2e7e59e5eb
+    targetGuid: 2a670c17-b362-4151-83f3-b49463a72f7f
+    portId: 36
+  - guid: 9b008430-59e5-4b89-8c27-ad200922808f
+    targetGuid: e14a2237-a5fd-4c04-a204-f87030b502a2
+    portId: 37
+  - guid: e14a2237-a5fd-4c04-a204-f87030b502a2
+    targetGuid: cc4b6e49-27c6-4fb9-a791-1d20a41f3e78
+    portId: 38
+  - guid: cc4b6e49-27c6-4fb9-a791-1d20a41f3e78
+    targetGuid: 42890e4c-d179-4b35-9e29-45b14a9eb376
+    portId: 39
+  - guid: cc4b6e49-27c6-4fb9-a791-1d20a41f3e78
+    targetGuid: 5c0e21af-89eb-4769-b480-b375c203920a
+    portId: 40
+  - guid: cc4b6e49-27c6-4fb9-a791-1d20a41f3e78
+    targetGuid: f9d6ef24-0cbd-425f-898e-4417d04fc8eb
+    portId: 41
+  - guid: 42890e4c-d179-4b35-9e29-45b14a9eb376
+    targetGuid: 314f0090-aee3-4703-ba06-51e8b001efbd
+    portId: 42
+  - guid: 5c0e21af-89eb-4769-b480-b375c203920a
+    targetGuid: e7939896-c466-4b03-9bb5-600e812399be
+    portId: 43
+  - guid: f9d6ef24-0cbd-425f-898e-4417d04fc8eb
+    targetGuid: e7939896-c466-4b03-9bb5-600e812399be
+    portId: 44
+  - guid: 314f0090-aee3-4703-ba06-51e8b001efbd
+    targetGuid: e7939896-c466-4b03-9bb5-600e812399be
+    portId: 45
+  - guid: e7939896-c466-4b03-9bb5-600e812399be
+    targetGuid: f857ad78-da4b-496b-8953-15d0306ebe72
+    portId: 46
+  - guid: f857ad78-da4b-496b-8953-15d0306ebe72
+    targetGuid: 579a9a51-699a-46e6-a0da-1c801726f6cf
+    portId: 47
+  - guid: 579a9a51-699a-46e6-a0da-1c801726f6cf
+    targetGuid: bac52352-a563-481a-baa2-ef547cd2dd3c
+    portId: 48
+  - guid: bac52352-a563-481a-baa2-ef547cd2dd3c
+    targetGuid: 9877b223-86dd-4013-8602-f34052fef11d
+    portId: 49
+  - guid: 9877b223-86dd-4013-8602-f34052fef11d
+    targetGuid: 201a88a2-24ea-48d2-bd3c-47d782416c01
+    portId: 50
+  - guid: abb7e11d-c5f7-48b4-a0f1-4fc136d61be5
+    targetGuid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    portId: 51
+  - guid: 5b7ed627-5fd7-4772-88e0-4a5f5eec0006
+    targetGuid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    portId: 52
+  - guid: b92bf514-f215-4ab6-804b-72afc9a2cf98
+    targetGuid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    portId: 53
+  - guid: c1dd9069-0941-4edc-95d1-ae98a4fe9960
+    targetGuid: b3e07600-b97b-4dbb-94bc-7b369256cb3d
+    portId: 54
+  - guid: 2fc15076-2a1a-4ee9-8e2d-b3495f494d14
+    targetGuid: b3e07600-b97b-4dbb-94bc-7b369256cb3d
+    portId: 55
+  - guid: 0d6811a1-952a-4aab-972a-007620691fff
+    targetGuid: b3e07600-b97b-4dbb-94bc-7b369256cb3d
+    portId: 56
+  - guid: 201a88a2-24ea-48d2-bd3c-47d782416c01
+    targetGuid: abb7e11d-c5f7-48b4-a0f1-4fc136d61be5
+    portId: 57
+  - guid: 201a88a2-24ea-48d2-bd3c-47d782416c01
+    targetGuid: 5b7ed627-5fd7-4772-88e0-4a5f5eec0006
+    portId: 58
+  - guid: 201a88a2-24ea-48d2-bd3c-47d782416c01
+    targetGuid: b92bf514-f215-4ab6-804b-72afc9a2cf98
+    portId: 59
+  - guid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    targetGuid: c1dd9069-0941-4edc-95d1-ae98a4fe9960
+    portId: 60
+  - guid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    targetGuid: 2fc15076-2a1a-4ee9-8e2d-b3495f494d14
+    portId: 61
+  - guid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    targetGuid: 0d6811a1-952a-4aab-972a-007620691fff
+    portId: 62
+  - guid: 0ec8caa3-8ef3-45c3-8eff-5522c6739cfb
+    targetGuid: de1e1eb1-2247-4ba9-8343-b18f7a2a8b29
+    portId: 63
+  - guid: 0ec8caa3-8ef3-45c3-8eff-5522c6739cfb
+    targetGuid: 3df6c873-d0ff-4773-ad12-c2f1124539df
+    portId: 64
+  - guid: 0ec8caa3-8ef3-45c3-8eff-5522c6739cfb
+    targetGuid: d004125c-7554-40f8-8e11-5cd143929ddb
+    portId: 65
+  - guid: bd091000-1756-4ea8-bad6-edb4472b5a37
+    targetGuid: 0ec8caa3-8ef3-45c3-8eff-5522c6739cfb
+    portId: 66
+  - guid: b3e07600-b97b-4dbb-94bc-7b369256cb3d
+    targetGuid: bd091000-1756-4ea8-bad6-edb4472b5a37
+    portId: 67
+  - guid: de1e1eb1-2247-4ba9-8343-b18f7a2a8b29
+    targetGuid: 9ac8cb4f-c7eb-46fa-b1df-607723a24ed4
+    portId: 68
+  - guid: 3df6c873-d0ff-4773-ad12-c2f1124539df
+    targetGuid: 9ac8cb4f-c7eb-46fa-b1df-607723a24ed4
+    portId: 69
+  - guid: d004125c-7554-40f8-8e11-5cd143929ddb
+    targetGuid: 9ac8cb4f-c7eb-46fa-b1df-607723a24ed4
+    portId: 70
+  - guid: 9ac8cb4f-c7eb-46fa-b1df-607723a24ed4
+    targetGuid: 8f094c49-5a4b-4664-b805-e83db07929cf
+    portId: 71
+  - guid: 8f094c49-5a4b-4664-b805-e83db07929cf
+    targetGuid: 70b4fc10-1d08-4305-b02c-c98d790bbd68
+    portId: 72
+  - guid: 70b4fc10-1d08-4305-b02c-c98d790bbd68
+    targetGuid: 28179d0d-58ca-478f-82bd-70b2514c790e
+    portId: 73
+  - guid: 28179d0d-58ca-478f-82bd-70b2514c790e
+    targetGuid: 27e1f5b7-4580-4fab-8539-9ccd0918e946
+    portId: 74
+  - guid: 27e1f5b7-4580-4fab-8539-9ccd0918e946
+    targetGuid: 441cdb71-8772-4ea0-9eba-0a2ee9e5d5c1
+    portId: 75
+  - guid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
+    targetGuid: c3f7af0b-e4b0-496b-9211-c28d5be01ca3
+    portId: 76
+  - guid: 82ea005d-4323-4956-ac85-3443d9fbcc0e
+    targetGuid: 898fe3a6-5cd8-4ab9-bac0-b1e7ccaaf5ad
+    portId: 77
+  - guid: 8c8468af-978d-4b9f-9871-c4e1652e58dd
+    targetGuid: 82ea005d-4323-4956-ac85-3443d9fbcc0e
+    portId: 78
+  - guid: 8c8468af-978d-4b9f-9871-c4e1652e58dd
+    targetGuid: 830d4fbc-c70b-4c5e-a23a-ff102c13b331
+    portId: 79
+  - guid: 8c8468af-978d-4b9f-9871-c4e1652e58dd
+    targetGuid: f7c204f3-8808-4276-9563-30bd219a625f
+    portId: 80
+  - guid: 441cdb71-8772-4ea0-9eba-0a2ee9e5d5c1
+    targetGuid: 0e8e047d-f104-4428-bbdc-53ecbd4af387
+    portId: 81
+  - guid: 0e8e047d-f104-4428-bbdc-53ecbd4af387
+    targetGuid: 8c8468af-978d-4b9f-9871-c4e1652e58dd
+    portId: 82
+  - guid: 898fe3a6-5cd8-4ab9-bac0-b1e7ccaaf5ad
+    targetGuid: c8bc802b-1689-4d99-90ff-3678bf3f6f0d
+    portId: 83
+  - guid: c8bc802b-1689-4d99-90ff-3678bf3f6f0d
+    targetGuid: cbd87549-2e2c-4d9c-a93f-13f86f26c57a
+    portId: 84
+  - guid: cbd87549-2e2c-4d9c-a93f-13f86f26c57a
+    targetGuid: 3e4a9a39-d9ff-4718-aa53-44a42959099d
+    portId: 85
+  - guid: 3e4a9a39-d9ff-4718-aa53-44a42959099d
+    targetGuid: b4c69854-0582-4921-a121-5f310c682420
+    portId: 86
+  - guid: b4c69854-0582-4921-a121-5f310c682420
+    targetGuid: 4242dab5-8528-4752-8cfb-0677d2f36174
+    portId: 87
+  - guid: 4242dab5-8528-4752-8cfb-0677d2f36174
+    targetGuid: 16dbe0a9-d238-4c1e-8cd3-7947791d9572
+    portId: 88
+  - guid: 4242dab5-8528-4752-8cfb-0677d2f36174
+    targetGuid: 17c576bd-fbc4-49ca-bc45-25e34421d776
+    portId: 89
+  - guid: 4242dab5-8528-4752-8cfb-0677d2f36174
+    targetGuid: 18b3949e-effd-40b6-8724-22431612e2c0
+    portId: 90
+  - guid: 16dbe0a9-d238-4c1e-8cd3-7947791d9572
+    targetGuid: e9989e99-3197-40d4-b9d4-564ad825b39b
+    portId: 91
+  - guid: 17c576bd-fbc4-49ca-bc45-25e34421d776
+    targetGuid: e9989e99-3197-40d4-b9d4-564ad825b39b
+    portId: 92
+  - guid: 18b3949e-effd-40b6-8724-22431612e2c0
+    targetGuid: e9989e99-3197-40d4-b9d4-564ad825b39b
+    portId: 93
+  - guid: e9989e99-3197-40d4-b9d4-564ad825b39b
+    targetGuid: c46fce21-659a-40b8-9db3-19aecb59e55e
+    portId: 94
+  - guid: c46fce21-659a-40b8-9db3-19aecb59e55e
+    targetGuid: c4649138-4e84-491d-99dd-102c4bb58b8e
+    portId: 95
+  - guid: c4649138-4e84-491d-99dd-102c4bb58b8e
+    targetGuid: 735f6c45-690b-47e6-b5bd-e6c137a251b1
+    portId: 96
+  - guid: 735f6c45-690b-47e6-b5bd-e6c137a251b1
+    targetGuid: 6bf2d4f0-922a-450f-ae63-355db14116d5
+    portId: 97
+  - guid: 6bf2d4f0-922a-450f-ae63-355db14116d5
+    targetGuid: 66c18169-7ed3-41b9-a966-3807612e3862
+    portId: 98
+  - guid: 66c18169-7ed3-41b9-a966-3807612e3862
+    targetGuid: 2c642717-531f-45dd-a24a-ca42bfcb8cf8
+    portId: 99
+  - guid: 2c642717-531f-45dd-a24a-ca42bfcb8cf8
+    targetGuid: 4b404ae2-8062-4fa3-8ec4-c9298a2884dc
+    portId: 100
+  - guid: 4b404ae2-8062-4fa3-8ec4-c9298a2884dc
+    targetGuid: 2069f261-4d4c-4670-8241-ff23fe74188e
+    portId: 101
+  - guid: 2069f261-4d4c-4670-8241-ff23fe74188e
+    targetGuid: aa3a6d69-6919-413f-a09d-476ee1149264
+    portId: 102
+  - guid: aa3a6d69-6919-413f-a09d-476ee1149264
+    targetGuid: 4c1ca291-5b33-47a4-a7ce-7384126e3722
+    portId: 103
+  - guid: 88f60e29-2a58-4437-b5b2-4c5dd4c41033
+    targetGuid: 80264c7d-e599-4208-8514-3b01600378ab
+    portId: 104
+  - guid: 88f60e29-2a58-4437-b5b2-4c5dd4c41033
+    targetGuid: 78758abd-d0df-4424-8924-76ab8ca3eda8
+    portId: 105
+  - guid: 88f60e29-2a58-4437-b5b2-4c5dd4c41033
+    targetGuid: a0a85443-a0de-4fa4-b78f-5787c2c73a5d
+    portId: 106
+  - guid: 4c1ca291-5b33-47a4-a7ce-7384126e3722
+    targetGuid: 88f60e29-2a58-4437-b5b2-4c5dd4c41033
+    portId: 107
+  - guid: 78758abd-d0df-4424-8924-76ab8ca3eda8
+    targetGuid: 1f72b82a-1c44-4b50-bf5a-e81b41b37874
+    portId: 108
+  - guid: 1f72b82a-1c44-4b50-bf5a-e81b41b37874
+    targetGuid: 848a01d2-934d-4a5d-bb64-543bd1061d85
+    portId: 109
+  - guid: 80264c7d-e599-4208-8514-3b01600378ab
+    targetGuid: 1f72b82a-1c44-4b50-bf5a-e81b41b37874
+    portId: 110
+  - guid: a0a85443-a0de-4fa4-b78f-5787c2c73a5d
+    targetGuid: 1f72b82a-1c44-4b50-bf5a-e81b41b37874
+    portId: 111
+  - guid: 848a01d2-934d-4a5d-bb64-543bd1061d85
+    targetGuid: 4aa1c5e7-8cf3-4c90-80c1-3225d77c676a
+    portId: 112
+  - guid: 4aa1c5e7-8cf3-4c90-80c1-3225d77c676a
+    targetGuid: 2f5f7557-86ab-41fa-bcdb-5c15c9c60b60
+    portId: 113
+  - guid: 2f5f7557-86ab-41fa-bcdb-5c15c9c60b60
+    targetGuid: 02413efa-e5b3-44c0-8eed-07d1aa7d4659
+    portId: 114
+  - guid: 02413efa-e5b3-44c0-8eed-07d1aa7d4659
+    targetGuid: 2f0d571a-c4e2-4484-849d-f3bede78166c
+    portId: 115
+  - guid: 2f0d571a-c4e2-4484-849d-f3bede78166c
+    targetGuid: 39379d93-f399-40c5-b785-ffbff62c3b02
+    portId: 116
+  - guid: 39379d93-f399-40c5-b785-ffbff62c3b02
+    targetGuid: dfe28fd9-8f55-49d8-8e50-6e50826354ca
+    portId: 117
+  - guid: dfe28fd9-8f55-49d8-8e50-6e50826354ca
+    targetGuid: c9d7b64f-a2f2-4020-9acb-72d461c56808
+    portId: 118
+  - guid: c9d7b64f-a2f2-4020-9acb-72d461c56808
+    targetGuid: b5f8df9c-46a1-42a0-9435-360a886b024d
+    portId: 119
+  - guid: b5f8df9c-46a1-42a0-9435-360a886b024d
+    targetGuid: 0c31fe39-f940-451b-aaed-3a2d75c2d127
+    portId: 120
+  - guid: 83c39783-44a6-4cfa-b93f-77675d8182da
+    targetGuid: 4fd2f629-a9de-47b6-8b88-3bb8b0e59626
+    portId: 121
+  - guid: 4fd2f629-a9de-47b6-8b88-3bb8b0e59626
+    targetGuid: 362e7ee2-6c29-408b-acd9-2d851ef3be4f
+    portId: 122
+  - guid: 362e7ee2-6c29-408b-acd9-2d851ef3be4f
+    targetGuid: 24626823-d46e-4edf-8a5c-f3d3c278f1f1
+    portId: 123
+  - guid: 24626823-d46e-4edf-8a5c-f3d3c278f1f1
+    targetGuid: 1e867847-aace-417b-8c12-608d01569209
+    portId: 124
+  - guid: 1e867847-aace-417b-8c12-608d01569209
+    targetGuid: eba2ba73-ec75-4670-88ab-2a1afe553311
+    portId: 125
+  - guid: eba2ba73-ec75-4670-88ab-2a1afe553311
+    targetGuid: e69001a4-0a22-4fe9-9154-21b362425b03
+    portId: 126
+  - guid: e69001a4-0a22-4fe9-9154-21b362425b03
+    targetGuid: 1c68bf86-e57b-4163-940b-193f9ce1cd6c
+    portId: 127
+  - guid: 1c68bf86-e57b-4163-940b-193f9ce1cd6c
+    targetGuid: 9801085d-498e-47d0-a525-a649477db840
+    portId: 128
+  - guid: 9801085d-498e-47d0-a525-a649477db840
+    targetGuid: 59afec60-0735-470f-92ed-b812e883b825
+    portId: 129
+  - guid: 59afec60-0735-470f-92ed-b812e883b825
+    targetGuid: 8ed50d4f-f840-4769-9bb9-031f7d376355
+    portId: 130
+  - guid: 8ed50d4f-f840-4769-9bb9-031f7d376355
+    targetGuid: 3d091b5d-c3ea-4688-a6a4-e1a9b2f70393
+    portId: 131
+  - guid: 3d091b5d-c3ea-4688-a6a4-e1a9b2f70393
+    targetGuid: 4b08d7fe-ac6f-41d7-abb6-cc9415fcfad4
+    portId: 132
+  - guid: 4b08d7fe-ac6f-41d7-abb6-cc9415fcfad4
+    targetGuid: 835ecbf9-a4d3-44f8-b0d8-b16245163639
+    portId: 133
+  - guid: 835ecbf9-a4d3-44f8-b0d8-b16245163639
+    targetGuid: 2d536789-59d5-4705-8876-e13127579995
+    portId: 134
+  - guid: 2d536789-59d5-4705-8876-e13127579995
+    targetGuid: 24e2e130-e881-446c-9dc3-b0b2c5d74541
+    portId: 135
+  - guid: 24e2e130-e881-446c-9dc3-b0b2c5d74541
+    targetGuid: 73a7f6f0-bfff-4536-a4c5-4c3af711d009
+    portId: 136
+  - guid: 73a7f6f0-bfff-4536-a4c5-4c3af711d009
+    targetGuid: 8193f2f5-90c1-4b7c-acc4-51f62536d929
+    portId: 137
+  nodes:
   - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
     characterSpr: {fileID: 0}
-    characterName: Player
-    dialogueText: While the rays of sunset
+    characterName: 
+    dialogueText: "While the rays of sunset are trickling down through the large
+      windows, I feel a wave of fatigue invading my body like a thick cotton blanket
+      falling on my forehead. It\u2019s late and I\u2019m still at the library. Around
+      me, fewer and fewer students are still perched upon their notes;"
     backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
     startNode: 1
     endNode: 0
@@ -341,9 +443,2698 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: -333
-      y: 260
+      x: -183
+      y: 227
       width: 499
       height: 320
-    soundEffect: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 1fe3882fe74b45040be91368bb7b825c, type: 3}
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 2
+  - guid: 8becf1df-d670-45f9-a9a8-75d7bb031e6f
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "The pages are honestly blurring in front of my eyes.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1813
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 475f9129-9404-4f5c-854d-b87417933f4f
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "Books of ancient and modern philosophy pile up on my desk and
+      there\u2019s no way I\u2019m finishing them all tonight.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2312
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 32873a2d-5211-453d-a29d-98443031699c
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: Player
+    dialogueText: "Which final am I taking first? I hope it\u2019s the modern thinkers\u2019
+      one; I\u2019m definitely behind on my re-reading of Plato\u2019s Republic.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - The guy talks way too much.
+    - "I honestly don\u2019t understand any of it\u2026"
+    - "If only someone could read it out loud for me\u2026"
+    nodePosition:
+      serializedVersion: 2
+      x: 2822
+      y: 227
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: Player
+    dialogueText: "But blaming some ancient dude for my own poor organization isn\u2019t
+      going to help me at this point\u2026\r\n"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3340
+      y: -122
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: d816b66f-43eb-4bad-a54c-107aec559db9
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: Player
+    dialogueText: "But blaming some ancient dude for my own poor organization isn\u2019t
+      going to help me at this point\u2026\r\n"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3340
+      y: 198
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: 9708138c-e47f-4a2a-add2-7d28651734b5
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: Player
+    dialogueText: "But blaming some ancient dude for my own poor organization isn\u2019t
+      going to help me at this point\u2026\r\n"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3340
+      y: 518
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: d4961ce6-e9f1-42f6-8ab0-a57cf1de37ed
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "With a heavy sigh, I begin collecting my papers and stacking my
+      books in a somewhat neat pile.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4360
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: acff894c-2dee-429f-a244-e3681bb8eab1
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "I must be taking longer than everyone else because I\u2019m the
+      only one left in this aisle of the library by now.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4859
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: Player
+    dialogueText: "Quick, now\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5358
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "I can only hear a few sighs and pages turning, such small noises
+      reverberating through the high ceilings of the old Sorbonne library building.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 316
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 3
+  - guid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "At some point, I must have dozed off because I don\u2019t remember
+      time passing so fast. The pressure of the finals must be getting to me\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 815
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 2
+  - guid: 82b833f3-ba0a-402e-b05e-bcf467f1254e
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "Thankfully, it will all be over soon. Just a bit more, _____!\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1314
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: f4dc792e-ae1a-49c4-aa6a-04ba19925d3e
+    characterSpr: {fileID: 0}
+    characterName: ?????
+    dialogueText: "The library is closing! Please, everyone, pack up your things!\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3861
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 58328292-70cd-4716-9a47-c2c9e4f19832
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "Oh? There\u2019s another book on the ground. I don\u2019t remember
+      letting it fall\u2026 Is this even one of mine? Because I definitely didn\u2019t
+      pick up anything on trucks. Yeah, that\u2019s a bright red truck on the cover.
+      Maybe it was a mistake.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - 'tries to kick the book under the table  '
+    - 'sighs and bends down to pick the book up. '
+    nodePosition:
+      serializedVersion: 2
+      x: 5857
+      y: 227
+      width: 499
+      height: 382
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 8602a0bf-7dae-43f9-b45c-64c6508ccc28
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "I guess it\u2019s coming with me. I would have been really exhausted
+      if I took it earlier.\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6356
+      y: 547
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: 9a6452ef-1bfd-41aa-86df-160918e66a9a
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "Not mine so not my problem\u2026 I\u2019m not going to pick up
+      after others."
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6356
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: 365c653f-7a0c-47b1-a45a-7d37d3dd0a01
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "My body feels so heavy\u2026 I\u2019m still bending down under
+      the table to pick up the strange ugly truck book but apparently, I\u2019m so
+      tired that I don\u2019t account for the sharp corner of the table on my way
+      up. It hurts! It hits me straight on the back of the head\u2026"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6855
+      y: 547
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 8c43a4a5-1b4c-4462-a65c-6e8db99823c7
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "As I\u2019m discreetly kicking it under the table, I bump my shin
+      against a heavy wooden chair. It hurts! The pain makes me double over and I
+      really shouldn\u2019t have done that because I didn\u2019t see the sharp table
+      corner which I heavily knocked against\u2026 "
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6855
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 6bc365b4-7a33-47b3-8d13-017d839827f4
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I\u2019m\u2026"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7354
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: c3f7af0b-e4b0-496b-9211-c28d5be01ca3
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8352
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 7af05a8b-1172-4da6-82ba-b1719d63bf9e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "It\u2019s so clich\xE9 but\u2026\r\nI can\u2019t see anything\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8851
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 56dace26-b5f4-4018-ae74-02bee8d3b8f6
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Oh!
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9350
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: cf511a3a-d676-4caa-a8de-e7ba77680d51
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Something- Something is gripping me- like inside my chest or\u2026
+      Eurgh, I feel sick\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9849
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 323400a1-d620-444c-b6ca-1a76f5b91367
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: THUD
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10348
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 5682adb0-5e64-4ca5-b0dc-469d6d400cb2
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Putain ! Bordel de merde, what-\r"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10847
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 630887cb-e1e7-4991-8acd-2ccd885d8831
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - 'open your eyes '
+    - 'open your eyes '
+    - 'open your eyes '
+    nodePosition:
+      serializedVersion: 2
+      x: 11346
+      y: 227
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 115bc56a-213f-46f3-9b54-6708a2904284
+    characterSpr: {fileID: 21300000, guid: 3a73c787caa472e48b1098d056e22e89, type: 3}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 86e7da9a5bf6ab04392925cbbe51a39e, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -183
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 1d8968f8-f805-4366-a1e4-17be03e8a23a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Everything hurts\u2026 It\u2019s like a literal truck ran over
+      me. Knocking your head shouldn\u2019t feel like this! Especially now\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 316
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: ba606330-ca9c-4d76-96d5-74f59f8dd3cb
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "There\u2019s some bright light around me that burns me even with
+      my eyes closed. I must be seeing things\u2026\r\n"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 815
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 2a670c17-b362-4151-83f3-b49463a72f7f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "But I don\u2019t feel anything broken. I should know, I\u2019m
+      an expert at spraining my ankle. It\u2019s like I fell on something soft\u2026
+      Or rather, someone.\r"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1813
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 6299468d-47e3-4d98-9e5e-5b2e7e59e5eb
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "And smelling things? Like burnt herbs and fresh fish. That\u2019s
+      a BIT much. Definitely not the usual sensorial experience for a random Parisian
+      girl.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1314
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 9b008430-59e5-4b89-8c27-ad200922808f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "To be precise, my face is engulfed in warmth, pressed against
+      clothes wrapped around a tensed body, doused in a smell of\u2026 dried sage?\r\n"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2312
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: e14a2237-a5fd-4c04-a204-f87030b502a2
+    characterSpr: {fileID: 21300000, guid: 81c36d2cd5931f74bb42e0c23f90ab02, type: 3}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2811
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: cc4b6e49-27c6-4fb9-a791-1d20a41f3e78
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "A strong hand is gripping my shoulder, almost to the point it
+      hurts, and the sensation startles me enough to straighten up and assess where
+      - or rather on whom - I\u2019ve fallen. It appears to be\u2026 A man."
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - EW!
+    - "Oh my gosh, I\u2019m so sorry!"
+    - Who the fuck are you?
+    nodePosition:
+      serializedVersion: 2
+      x: 3310
+      y: 1076
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 42890e4c-d179-4b35-9e29-45b14a9eb376
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "The sound escapes my mouth without me being able to control it.
+      I\u2019ve never been that close to a male body and I don\u2019t think I wanted
+      it to happen that way - or ever.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3809
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: 5c0e21af-89eb-4769-b480-b375c203920a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'Ok, it seems like I fell on a guy.
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3809
+      y: 1396
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: f9d6ef24-0cbd-425f-898e-4417d04fc8eb
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'Ok, it seems like I fell on a guy.
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3809
+      y: 1716
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: 314f0090-aee3-4703-ba06-51e8b001efbd
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'Ok, it seems like I fell on a guy.
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4308
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: e7939896-c466-4b03-9bb5-600e812399be
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Totally cool.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4807
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: f857ad78-da4b-496b-8953-15d0306ebe72
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "And he\u2019s dressed like he\u2019s coming straight from the
+      movie set of Troy or something. Maybe not Troy if you look closely at the diadem
+      on his\u2026 What\u2019s the word? Ah, yes, a kausia- Thank you, Ancient History
+      classes.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5306
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 579a9a51-699a-46e6-a0da-1c801726f6cf
+    characterSpr: {fileID: 21300000, guid: efa8d6d7733650c4783a88d01538b15d, type: 3}
+    characterName: ?????
+    dialogueText: "Oi- You\u2019re hurting me, careful with the knee!"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5805
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: bac52352-a563-481a-baa2-ef547cd2dd3c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Apparently, while I was looking at his headgear, I was also kneeing
+      him in the stomach.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6304
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 9877b223-86dd-4013-8602-f34052fef11d
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Oops.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6803
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: abb7e11d-c5f7-48b4-a0f1-4fc136d61be5
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "He\u2019s looking at me with a strange look on his face: it\u2019s
+      like he can\u2019t decide whether to laugh or be angry. Overall, he seems baffled.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7801
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: 5b7ed627-5fd7-4772-88e0-4a5f5eec0006
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "He\u2019s looking at me with a strange look on his face: it\u2019s
+      like he can\u2019t decide whether to laugh or be angry. Overall, he seems baffled.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7801
+      y: 1396
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: b92bf514-f215-4ab6-804b-72afc9a2cf98
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "He\u2019s looking at me with a strange look on his face: it\u2019s
+      like he can\u2019t decide whether to laugh or be angry. Overall, he seems baffled.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7801
+      y: 1716
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: c1dd9069-0941-4edc-95d1-ae98a4fe9960
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Mom always told me to think before I speak but I still feel pretty
+      dizzy right now and I\u2019m not exactly the best at filtering\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8799
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: 2fc15076-2a1a-4ee9-8e2d-b3495f494d14
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Mom always told me to think before I speak but I still feel pretty
+      dizzy right now and I\u2019m not exactly the best at filtering\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8799
+      y: 1396
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: 0d6811a1-952a-4aab-972a-007620691fff
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Mom always told me to think before I speak but I still feel pretty
+      dizzy right now and I\u2019m not exactly the best at filtering\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8799
+      y: 1716
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: 201a88a2-24ea-48d2-bd3c-47d782416c01
+    characterSpr: {fileID: 21300000, guid: efa8d6d7733650c4783a88d01538b15d, type: 3}
+    characterName: ??????
+    dialogueText: "Seriously, get off me!\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - "Don\u2019t get all pissy at me, it wasn\u2019t my fault!"
+    - "Yes, I\u2019m trying- I\u2019m hurt too, you know!"
+    - "I\u2019m so sorry, my legs are shaking right now-"
+    nodePosition:
+      serializedVersion: 2
+      x: 7302
+      y: 1076
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    characterSpr: {fileID: 21300000, guid: efa8d6d7733650c4783a88d01538b15d, type: 3}
+    characterName: ??????
+    dialogueText: " You\u2019re\u2026 Pretty confident, talking back to me like that."
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - "Yeah, well, shouldn\u2019t I?"
+    - "I didn\u2019t say anything rude, though\u2026"
+    - "I\u2019m just saying things as they are. "
+    nodePosition:
+      serializedVersion: 2
+      x: 8300
+      y: 1076
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 0ec8caa3-8ef3-45c3-8eff-5522c6739cfb
+    characterSpr: {fileID: 21300000, guid: efa8d6d7733650c4783a88d01538b15d, type: 3}
+    characterName: ??????
+    dialogueText: "Who are you, even\u2026?"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - "My name is XXX. I\u2019m French, if you must know."
+    - "Shouldn\u2019t you tell me who you are, first? I\u2019m XXX, anyway."
+    - "I\u2019m XXX and I definitely don\u2019t know how I got here."
+    nodePosition:
+      serializedVersion: 2
+      x: 10296
+      y: 1076
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: bd091000-1756-4ea8-bad6-edb4472b5a37
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "He looks as surprised as I am at the moment.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9797
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: b3e07600-b97b-4dbb-94bc-7b369256cb3d
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Anyway, he doesn\u2019t seem to want to push me back. Nor to help
+      me get up, to be fair.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9298
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: de1e1eb1-2247-4ba9-8343-b18f7a2a8b29
+    characterSpr: {fileID: 21300000, guid: efa8d6d7733650c4783a88d01538b15d, type: 3}
+    characterName: 
+    dialogueText: "Oh\u2026 XXX. That\u2019s a strange name. I\u2019m \u2013"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10795
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: 3df6c873-d0ff-4773-ad12-c2f1124539df
+    characterSpr: {fileID: 21300000, guid: efa8d6d7733650c4783a88d01538b15d, type: 3}
+    characterName: 
+    dialogueText: "Oh\u2026 XXX. That\u2019s a strange name. I\u2019m \u2013"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10795
+      y: 1396
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: d004125c-7554-40f8-8e11-5cd143929ddb
+    characterSpr: {fileID: 21300000, guid: efa8d6d7733650c4783a88d01538b15d, type: 3}
+    characterName: 
+    dialogueText: "Oh\u2026 XXX. That\u2019s a strange name. I\u2019m \u2013"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10795
+      y: 1716
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: 9ac8cb4f-c7eb-46fa-b1df-607723a24ed4
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "The stranger doesn\u2019t have time to introduce himself - screams
+      are erupting all around us, along with loud running noises. People are rushing
+      to us, grabbing me- Someone dressed in leather armor roughly grabs my arm while
+      I can hear another man alerting his colleagues. \r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11294
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 8f094c49-5a4b-4664-b805-e83db07929cf
+    characterSpr: {fileID: 0}
+    characterName: ??????
+    dialogueText: We caught her! She was attacking the emperor!
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11793
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 70b4fc10-1d08-4305-b02c-c98d790bbd68
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'What? The emperor?
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12292
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 28179d0d-58ca-478f-82bd-70b2514c790e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'Are they talking about that guy I fell on?
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12791
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 27e1f5b7-4580-4fab-8539-9ccd0918e946
+    characterSpr: {fileID: 0}
+    characterName: ?????
+    dialogueText: She must be an accomplice of the assassin we caught earlier!
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13290
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\rI feel like I\u2019m falling!\r\nI must have hit my head really
+      hard for the dizziness to be this intense\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7853
+      y: 227
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 82ea005d-4323-4956-ac85-3443d9fbcc0e
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: Leave me alone !
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15286
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: 8c8468af-978d-4b9f-9871-c4e1652e58dd
+    characterSpr: {fileID: 21300000, guid: ae3ed7c2146bfda4b9241f68719913a5, type: 3}
+    characterName: 
+    dialogueText: "And I definitely don\u2019t want to be a part of it.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - 'tries to get up and push the guard away '
+    - looks back at the stranger from earlier, with frightened eyes
+    - puts an arm over my face to protect myself and cries out
+    nodePosition:
+      serializedVersion: 2
+      x: 14787
+      y: 1076
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 441cdb71-8772-4ea0-9eba-0a2ee9e5d5c1
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Wait a minute- An assassin, now?\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13789
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 0e8e047d-f104-4428-bbdc-53ecbd4af387
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Oh, ok, I can see the scandal forming now\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14288
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 830d4fbc-c70b-4c5e-a23a-ff102c13b331
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I almost can\u2019t see him, behind all the guards flocked around
+      him. So the tiara was there on his head for a reason\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15286
+      y: 1396
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: f7c204f3-8808-4276-9563-30bd219a625f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "It seems to surprise the guard whose grip on me relents a bit.
+      I still can\u2019t get away though\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15286
+      y: 1716
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: 898fe3a6-5cd8-4ab9-bac0-b1e7ccaaf5ad
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Ouch! Ok, this guy is way stronger than me and doesn\u2019t care
+      about hurting me, apparently.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15785
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: c8bc802b-1689-4d99-90ff-3678bf3f6f0d
+    characterSpr: {fileID: 0}
+    characterName: ???????
+    dialogueText: "How dare you, woman! Do you even realize who you attempted murder
+      against?!\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16284
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 0c31fe39-f940-451b-aaed-3a2d75c2d127
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Ouch!
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 316
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: b5f8df9c-46a1-42a0-9435-360a886b024d
+    characterSpr: {fileID: 0}
+    characterName: ???????
+    dialogueText: Get in there!
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -183
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 73a7f6f0-bfff-4536-a4c5-4c3af711d009
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: fae584e8dfaae88489946918023064dc, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8799
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 8193f2f5-90c1-4b7c-acc4-51f62536d929
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -183
+      y: 2356
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: cbd87549-2e2c-4d9c-a93f-13f86f26c57a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Obviously not. I thought the tiara was an obnoxious accessory
+      first. But if it\u2019s the one of an actual emperor\u2026\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16783
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 3e4a9a39-d9ff-4718-aa53-44a42959099d
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Come on, try to remember, XXX. If I\u2019m dreaming of some Ancient
+      Greece emperor, it should be your favorite or the one I studied most, so\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17282
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: b4c69854-0582-4921-a121-5f310c682420
+    characterSpr: {fileID: 0}
+    characterName: ?????????
+    dialogueText: "No mortal could even begin to fathom approaching our beloved Emperor
+      and most esteemed leader, Alexander the Great!\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17781
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 4242dab5-8528-4752-8cfb-0677d2f36174
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Oh
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - Definitely not my favorite emperor.
+    - "Alexander the\u2013 Come on! Really?"
+    - "Ok so not one of the mad guys. That\u2019s at least that."
+    nodePosition:
+      serializedVersion: 2
+      x: 18280
+      y: 1076
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 16dbe0a9-d238-4c1e-8cd3-7947791d9572
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Alexander the Great\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18779
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: 17c576bd-fbc4-49ca-bc45-25e34421d776
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Alexander the Great\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18779
+      y: 1396
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: 18b3949e-effd-40b6-8724-22431612e2c0
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Alexander the Great\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18779
+      y: 1716
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: e9989e99-3197-40d4-b9d4-564ad825b39b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I didn\u2019t expect him to look like that.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19278
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: c46fce21-659a-40b8-9db3-19aecb59e55e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I also definitely didn\u2019t plan either to fall on him, or worse,
+      to be mistaken as someone trying to kill him. \r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19777
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: c4649138-4e84-491d-99dd-102c4bb58b8e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "And these guards won\u2019t listen to reason, judging by the way
+      they\u2019re still screaming. They\u2019re so rough with me, pushing me left
+      and right that at some point, I feel something fall from my skirt\u2019s pocket\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20276
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 735f6c45-690b-47e6-b5bd-e6c137a251b1
+    characterSpr: {fileID: 21300000, guid: b6eeff50c6862dc4d9a6008ddb0eca8d, type: 3}
+    characterName: 
+    dialogueText: "It\u2019s a small book, a shortened version of the important points
+      to remember from Plato\u2019s Republic. \r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20775
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 6bf2d4f0-922a-450f-ae63-355db14116d5
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Basically my Bible when I need to check my notes before finals.
+      It features a bust of the philosopher on the cover, along with his name written
+      in Greek alphabet - for aesthetics\u2019 sake I think, as the rest of the book
+      is in French. Anyway, as soon as the book falls on the ground, everything quietens
+      around me.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21274
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 66c18169-7ed3-41b9-a966-3807612e3862
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "The guards holding me, the panicked servants and dignitaries but
+      also Alexander himself (I still can\u2019t wrap my mind around this) all zero
+      in on it, staring at the cover, some of them gasping upon the sight.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21773
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 2c642717-531f-45dd-a24a-ca42bfcb8cf8
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'Have they never seen a Greek philosopher bust?
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 22272
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 4b404ae2-8062-4fa3-8ec4-c9298a2884dc
+    characterSpr: {fileID: 0}
+    characterName: ???????
+    dialogueText: ' A Plato manifesto!'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 22771
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 2069f261-4d4c-4670-8241-ff23fe74188e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'Ah, they have. They even know the name. Kudos to them, not every
+      student can do that, even among the ranks of the Sorbonne.
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 23270
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: aa3a6d69-6919-413f-a09d-476ee1149264
+    characterSpr: {fileID: 0}
+    characterName: ??????
+    dialogueText: "She must be from his party! It was him who organized the assassination
+      attempt, after all!\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 23769
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 4c1ca291-5b33-47a4-a7ce-7384126e3722
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Wait, what?\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 24268
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 88f60e29-2a58-4437-b5b2-4c5dd4c41033
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "It\u2019s not that they know of him - they actually know him.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - "There\u2019s been a misunderstanding here!"
+    - "I\u2019m a student! I study Plato! That\u2019s why I-"
+    - "How many times must I tell you I\u2019m no assassin\u2026"
+    nodePosition:
+      serializedVersion: 2
+      x: 24767
+      y: 1076
+      width: 499
+      height: 425
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 78758abd-d0df-4424-8924-76ab8ca3eda8
+    characterSpr: {fileID: 0}
+    characterName: ???????
+    dialogueText: Shut up, woman!
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 25266
+      y: 1396
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 1
+      bonusAmount: 1
+  - guid: 80264c7d-e599-4208-8514-3b01600378ab
+    characterSpr: {fileID: 0}
+    characterName: ???????
+    dialogueText: Shut up, woman!
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 25266
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1
+  - guid: a0a85443-a0de-4fa4-b78f-5787c2c73a5d
+    characterSpr: {fileID: 0}
+    characterName: ???????
+    dialogueText: Shut up, woman!
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 25266
+      y: 1716
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 3
+      bonusAmount: 1
+  - guid: 1f72b82a-1c44-4b50-bf5a-e81b41b37874
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Ok, that\u2019s rude. The guy even tries to slap me to shut me
+      up but\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 25765
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 848a01d2-934d-4a5d-bb64-543bd1061d85
+    characterSpr: {fileID: 21300000, guid: f397129beec808e458fe7c8b1ed36a37, type: 3}
+    characterName: Alexander The Great
+    dialogueText: Stop that immediately!
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 26264
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 4aa1c5e7-8cf3-4c90-80c1-3225d77c676a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "The stranger from earlier - freaking Alexander the Great - is
+      protecting me? I didn\u2019t remember he was such a pacifist but\u2026 Who
+      am I to complain?\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 26763
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 2f5f7557-86ab-41fa-bcdb-5c15c9c60b60
+    characterSpr: {fileID: 21300000, guid: f397129beec808e458fe7c8b1ed36a37, type: 3}
+    characterName: Alexander The Great
+    dialogueText: "That\u2019s enough! No one else is trying to murder me right now
+      so just take this girl to a jail cell so we can try to make sense of what\u2019s
+      happening!\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 27262
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 02413efa-e5b3-44c0-8eed-07d1aa7d4659
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Jail? That\u2019s a bit much\u2026 Isn\u2019t it?\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 27761
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 2f0d571a-c4e2-4484-849d-f3bede78166c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "But if I protest more\u2026 I\u2019m definitely getting hit, if
+      not in front of the emperor, then later. So I\u2019m shutting up for now so
+      they don\u2019t manhandle me more than necessary as they take me away.\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 28260
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 39379d93-f399-40c5-b785-ffbff62c3b02
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Before he\u2019s out of sight, I\u2019m glancing one last time
+      at Alexander\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 28759
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: dfe28fd9-8f55-49d8-8e50-6e50826354ca
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "The expression on his face is hard to decipher but\u2026 He seems
+      almost- sad?\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 29258
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: c9d7b64f-a2f2-4020-9acb-72d461c56808
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Should I be worried?\r"
+    backgroundSpr: {fileID: 21300000, guid: 353ca62d8e9a8ca47ae06b46d64d3806, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 29757
+      y: 1076
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 83c39783-44a6-4cfa-b93f-77675d8182da
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Did they really have to throw me on the ground like that?\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 815
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 4fd2f629-a9de-47b6-8b88-3bb8b0e59626
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I suppose it goes with the whole royal guards\u2019 thing\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1314
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 362e7ee2-6c29-408b-acd9-2d851ef3be4f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Anyway, I\u2019m alone now. In a small jail cell that definitely
+      smells and looks like it hasn\u2019t seen a ray of sunshine in years. With
+      mice feces on the ground, too. Great.\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1813
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 24626823-d46e-4edf-8a5c-f3d3c278f1f1
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\u2026\r\n\u2026 \u2026\r\nI\u2019m not only in a cell.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2312
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 1e867847-aace-417b-8c12-608d01569209
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I\u2019m in a cell in what appears to be Ancient freaking Greece.\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2811
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: eba2ba73-ec75-4670-88ab-2a1afe553311
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I\u2019m not stupid, I can put two and two together\u2026 And
+      I studied enough to recognize what\u2019s around me.\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3310
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: e69001a4-0a22-4fe9-9154-21b362425b03
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Maybe I studied too much if it made my hallucinations so vivid\u2026\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3809
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 1c68bf86-e57b-4163-940b-193f9ce1cd6c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "But there are things that I couldn\u2019t have come up with. There\u2019s
+      too many details, too many things happening at once\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4308
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 9801085d-498e-47d0-a525-a649477db840
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Oh, how my head hurts\u2026\r\nAlexander the Great?\r\n\u2026
+      The actual Plato?\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4807
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 59afec60-0735-470f-92ed-b812e883b825
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'My dreams have no historical logic but they sure feel real as
+      hell
+
+'
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5306
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 8ed50d4f-f840-4769-9bb9-031f7d376355
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "So real that I can already see the bruises on my arms from where
+      the guards held me. In what mess did I end up\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5805
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 3d091b5d-c3ea-4688-a6a4-e1a9b2f70393
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Maybe, if I just sleep, I\u2019ll wake up as usual. In my bed.
+      Or a hospital bed if I got a concussion back in the library.\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6304
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 4b08d7fe-ac6f-41d7-abb6-cc9415fcfad4
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Or not. Maybe I\u2019ll stay stuck here. Could it be worse?\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6803
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 835ecbf9-a4d3-44f8-b0d8-b16245163639
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I could have ended up in Mesoamerica - which I know nothing about.
+      Here, at least, I\u2019m familiar with the basics.\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7302
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 2d536789-59d5-4705-8876-e13127579995
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "And isn\u2019t it every Ancient History student\u2019s fantasy
+      to be thrown in old Athens like this? Plus, I don\u2019t have to worry about
+      studying for my finals anymore. I\u2019m doing field studies right now. If
+      I get lucky, I can try to interview someone, get more material\u2026 But for
+      now, I need to get rid of this migraine.\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7801
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 24e2e130-e881-446c-9dc3-b0b2c5d74541
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Sleep it off, hopefully\u2026 My eyelids feel so heavy I\u2019ll
+      fall asleep in no time. What a strange fantasy, though\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 5b79965415051b949b3685ade429f8bf, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8300
+      y: 2036
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
