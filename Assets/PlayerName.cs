@@ -8,8 +8,7 @@ using UnityEngine.SceneManagement;
 public class PlayerName : MonoBehaviour
 {
     [SerializeField]
-    private string playerHolder;
-    
+    private string playerHolder;    
     [SerializeField]
     private Text dialogueText, characterNamesTxt;
     [SerializeField]
@@ -21,20 +20,12 @@ public class PlayerName : MonoBehaviour
     private void Awake()
     {
         scenename = SceneManager.GetActiveScene().name;
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
     }
     // Start is called before the first frame update
     void Start()
     {
-        dialogueText = GameObject.Find("DialogueText").GetComponent<Text>();
-        characterNamesTxt = GameObject.Find("NameText").GetComponent <Text>();
         playerHolder = PlayerPrefs.GetString("PlayerPseudo");
-    }
-
-    private void UpdateDialogueBox()
-    {
-        dialogueText = GameObject.Find("DialogueText").GetComponent<Text>();
-        characterNamesTxt = GameObject.Find("NameText").GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -51,11 +42,6 @@ public class PlayerName : MonoBehaviour
             //Debug.Log("XXX trouver");            
             dialogueText.text = dialogueText.text.Replace("XXX", playerHolder);
             StartCoroutine(WaitTimeDialogueupdate());
-        }
-        if (scenename != SceneManager.GetActiveScene().name)
-        {
-            scenename = SceneManager.GetActiveScene().name;
-            UpdateDialogueBox();
         }
     }
 

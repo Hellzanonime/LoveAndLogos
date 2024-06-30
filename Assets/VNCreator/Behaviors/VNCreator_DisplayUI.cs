@@ -107,6 +107,7 @@ namespace VNCreator
             //modif here 
             PlayerPrefs.SetInt("PseudoChanged", 0);
             PlayerPrefs.SetInt("DialogueNameChanged", 0);
+            PlayerPrefs.SetInt("DiceRollActivated", 0);
             //end modif
             base.NextNode(_choiceId);
             StartCoroutine(DisplayCurrentNode());

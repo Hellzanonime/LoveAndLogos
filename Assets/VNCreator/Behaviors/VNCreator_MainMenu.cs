@@ -16,7 +16,7 @@ namespace VNCreator
 
         [Header("")]
         [Scene]
-        public string playScene;
+        public string playScene,continueScene;
 
         [Header("Menu Objects")]
         public GameObject optionsMenu;
@@ -48,7 +48,7 @@ namespace VNCreator
         void LoadGame()
         {
             GameSaveManager.currentLoadName = "MainGame";
-            SceneManager.LoadScene(playScene, LoadSceneMode.Single);
+            SceneManager.LoadScene(continueScene, LoadSceneMode.Single);
         }
 
         void DisplayOptionsMenu()

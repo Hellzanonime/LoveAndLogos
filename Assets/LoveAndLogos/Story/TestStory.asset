@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: TestStory
+  m_EditorClassIdentifier: 
+  links:
+  - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
+    targetGuid: 905fe2ea-5033-4ede-bc0f-a70a7aa7d32d
+    portId: 0
+  - guid: 905fe2ea-5033-4ede-bc0f-a70a7aa7d32d
+    targetGuid: c8079f31-52f5-4e68-8645-cd49110d61e5
+    portId: 1
+  - guid: 905fe2ea-5033-4ede-bc0f-a70a7aa7d32d
+    targetGuid: ef293d2c-c4d1-45cd-b0cc-194de841a6bf
+    portId: 2
+  - guid: c8079f31-52f5-4e68-8645-cd49110d61e5
+    targetGuid: c1853cdc-9383-40ae-85fd-b1199f0e9f9f
+    portId: 3
+  - guid: c8079f31-52f5-4e68-8645-cd49110d61e5
+    targetGuid: 2af1027b-093d-45e9-aa85-183fd6d2987b
+    portId: 4
+  - guid: ef293d2c-c4d1-45cd-b0cc-194de841a6bf
+    targetGuid: b4ce7944-7582-43ff-b0f2-6034cfa714d2
+    portId: 5
+  - guid: b4ce7944-7582-43ff-b0f2-6034cfa714d2
+    targetGuid: a1ae3405-ebb4-4c77-99de-9e6079a2bc39
+    portId: 6
+  - guid: 2af1027b-093d-45e9-aa85-183fd6d2987b
+    targetGuid: a1ae3405-ebb4-4c77-99de-9e6079a2bc39
+    portId: 7
+  - guid: c1853cdc-9383-40ae-85fd-b1199f0e9f9f
+    targetGuid: a1ae3405-ebb4-4c77-99de-9e6079a2bc39
+    portId: 8
+  nodes:
+  - guid: 905fe2ea-5033-4ede-bc0f-a70a7aa7d32d
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - choice DC
+    - no choice DC
+    nodePosition:
+      serializedVersion: 2
+      x: 188
+      y: 210
+      width: 499
+      height: 382
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
+    characterSpr: {fileID: 0}
+    characterName: 'start test '
+    dialogueText: test 1
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -339
+      y: 210
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: c8079f31-52f5-4e68-8645-cd49110d61e5
+    characterSpr: {fileID: 0}
+    characterName: DR
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - 
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 687
+      y: 210
+      width: 499
+      height: 382
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: c1853cdc-9383-40ae-85fd-b1199f0e9f9f
+    characterSpr: {fileID: 0}
+    characterName: Success
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1186
+      y: 210
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: 2af1027b-093d-45e9-aa85-183fd6d2987b
+    characterSpr: {fileID: 0}
+    characterName: Faillure
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1186
+      y: 530
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: ef293d2c-c4d1-45cd-b0cc-194de841a6bf
+    characterSpr: {fileID: 0}
+    characterName: no dice
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 687
+      y: 592
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: b4ce7944-7582-43ff-b0f2-6034cfa714d2
+    characterSpr: {fileID: 0}
+    characterName: stil no dice
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1186
+      y: 850
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0
+  - guid: a1ae3405-ebb4-4c77-99de-9e6079a2bc39
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: end
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1778
+      y: 593
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 0
+      bonusAmount: 0

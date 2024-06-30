@@ -647,6 +647,7 @@ MonoBehaviour:
   optionsMenuBtn: {fileID: 733967183}
   quitBtn: {fileID: 1783100642}
   playScene: Assets/LoveAndLogos/Scenes/LL_Player.unity
+  continueScene: Assets/LoveAndLogos/Scenes/LL_Prologue.unity
   optionsMenu: {fileID: 654181471}
   mainMenu: {fileID: 1113324239}
 --- !u!4 &266208311

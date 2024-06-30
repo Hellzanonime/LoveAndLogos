@@ -21,6 +21,8 @@ namespace LoveAndLogos
         private CardType cardType;
         private int cardNature;
         [SerializeField]
+        private GameObject cardPlayarena;
+        [SerializeField]
         private bool isHover = true;
         [SerializeField]
         private Text hoverTxt;
@@ -32,10 +34,12 @@ namespace LoveAndLogos
             if (vnManager.nbsOfChoices == 2)
             {
                 cardManager.DrawCardCollection(cardTypes);
+                cardPlayarena.SetActive(true);
             }
             else
             {
                 cardManager.DrawEveryCardType();
+                cardPlayarena.SetActive(true);
             }
         }
         private void Update()
@@ -84,6 +88,7 @@ namespace LoveAndLogos
 
         IEnumerator CardsPlaying()
         {
+            cardPlayarena.SetActive(false);
             yield return new WaitForSeconds(1f);
             //check name of game object 
             //if 1 found calle node choice 0

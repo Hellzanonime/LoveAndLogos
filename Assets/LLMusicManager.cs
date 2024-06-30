@@ -10,7 +10,7 @@ namespace LoveAndLogos
     public class LLMusicManager : MonoBehaviour
     {
         [SerializeField]
-        private AudioSource introSource, loopSource;
+        private AudioSource musicsource;
         private int j;
         [SerializeField]
         private VNCreator_DisplayUI vnSys;
@@ -24,8 +24,7 @@ namespace LoveAndLogos
         //private StoryObject storyManager;
         private void Awake()
         {
-            introSource.volume = PlayerPrefs.GetFloat("MusicVolume");
-            loopSource.volume = PlayerPrefs.GetFloat("MusicVolume");
+            musicsource.volume = PlayerPrefs.GetFloat("MusicVolume");
             StartCoroutine(LoopingTrack());            
         }
 
@@ -37,12 +36,16 @@ namespace LoveAndLogos
                 if (vnSys.dialogueTxt.text == musicTxt[i] && !musicChanged)
                 {
                     j = PlayerPrefs.GetInt("MusicTrack");
-                    if(j < musicTxt.Length-1)
+                    if(j < musicTxt.Length)
                     {
                         j++;
                         PlayerPrefs.SetInt("MusicTrack", j);
                         ChangeTrack();
                     }                
+                }
+                else
+                {
+                    //musicChanged = false;
                 }
             }
             
@@ -52,28 +55,23 @@ namespace LoveAndLogos
         {
             musicChanged = true;
             StartCoroutine(LoopingTrack());
+            StartCoroutine(ChangingBool());
         }
-
-        IEnumerator ChangingTrack()
+        IEnumerator ChangingBool()
         {
-            introSource.volume = PlayerPrefs.GetFloat("MusicVolume");
-            introSource.clip = intros[j];
-            introSource.Play();
-            yield return new WaitForSeconds(intros[j].length);
+            yield return new WaitForSeconds(15f);
             musicChanged = false;
-            Debug.Log("le text ref = le text dialogue");
         }
 
         IEnumerator LoopingTrack()
         {
-            introSource.clip = intros[j];
-            loopSource.Stop();
-            introSource.Play();
+            musicsource.clip = intros[j];
+            musicsource.loop = false;
+            musicsource.Play();
             yield return new WaitForSeconds(intros[j].length);
-            loopSource.clip = loops[j];
-            loopSource.loop = true;
-            loopSource.Play();
-            musicChanged = false;
+            musicsource.clip = loops[j];
+            musicsource.loop = true;
+            musicsource.Play();
         }
     }
 }
