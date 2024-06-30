@@ -10,7 +10,6 @@ namespace VNCreator
         public static float sfxVolume = 0.5f;
         public static float readSpeed = 0.5f;
         public static bool isInstantText = false;
-
         public static void InitilizeOptions()
         {
             if (PlayerPrefs.HasKey("MusicVolume"))

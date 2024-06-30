@@ -17,6 +17,12 @@ namespace VNCreator
         public GameObject optionsMenu;
         public GameObject mainMenu;
 
+        //modif here
+        public VNCreator_MainMenu vnMM;
+        [SerializeField]
+        private AudioSource musicSource;
+        //end modif 
+
         void Start()
         {
             GameOptions.InitilizeOptions();
@@ -25,6 +31,9 @@ namespace VNCreator
             {
                 musicVolumeSlider.value = GameOptions.musicVolume;
                 musicVolumeSlider.onValueChanged.AddListener(GameOptions.SetMusicVolume);
+                //modif here | change vokume of main menu music in real time
+                musicVolumeSlider.onValueChanged.AddListener(delegate { UpdateMusicVilMM(); });
+                //end modif
             }
             if (sfxVolumeSlider != null)
             {
@@ -44,7 +53,12 @@ namespace VNCreator
 
             backButton.onClick.AddListener(Back);
         }
-
+        //modif here | change vokume of main menu music in real time 
+        private void UpdateMusicVilMM()
+        {
+            musicSource.volume = GameOptions.musicVolume;
+        }
+        //end modif
         void Back()
         {
             mainMenu.SetActive(true);

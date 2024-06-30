@@ -36,7 +36,7 @@ namespace VNCreator
                     continueBtn.onClick.AddListener(LoadGame);
                 else
                     continueBtn.interactable = false;
-            }
+            }            
         }
 
         void NewGame()
