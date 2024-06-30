@@ -212,9 +212,13 @@ namespace CardPlay
 
     public void OnCardDragStart(CardWrapper card) {
         currentDraggedCard = card;
-            Debug.Log("card is draged");
-        PlayerPrefs.SetInt("HoverCard", 1);
-        PlayerPrefs.SetInt("CardNature", ((int)card.playableCard.cardType));
+        Debug.Log("card is draged");
+        
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            PlayerPrefs.SetInt("HoverCard", 1);
+            PlayerPrefs.SetInt("CardNature", ((int)card.playableCard.cardType));
+        }
     }
 
     public void OnCardDragEnd() {
@@ -226,10 +230,14 @@ namespace CardPlay
                 DestroyCard(currentDraggedCard);
             }
         }
+        if (Application.platform == RuntimePlatform.Android)
+        {
             PlayerPrefs.SetInt("HoverCard", 0);
             Debug.Log("card is NOT draged");
+        }
+            
 
-            currentDraggedCard = null;
+        currentDraggedCard = null;
     }
 
     public void DestroyCard(CardWrapper card) {

@@ -22,6 +22,7 @@ namespace VNCreator
         public Button nextBtn;
         public Button previousBtn;
         public Button saveBtn;
+        public Button endSaveBtn;
         public Button menuButton;
         [Header("Choices")]
         public Button choiceBtn1;
@@ -37,6 +38,7 @@ namespace VNCreator
         public VNCreator_SfxSource vnSFX;
         [Header("les choice text")]
         public string[] choicesTxt;
+        public int nbsOfChoices;
         //public VNCreator_MusicSource vnMusic;
         //end modif
         [Header("End")]
@@ -54,7 +56,8 @@ namespace VNCreator
                 saveBtn.onClick.AddListener(Save);
             if (menuButton != null)
                 menuButton.onClick.AddListener(ExitGame);
-
+            if(endSaveBtn != null)
+                endSaveBtn.onClick.AddListener(Save);
             if(choiceBtn1 != null)
                 choiceBtn1.onClick.AddListener(delegate { NextNode(0); });
             if(choiceBtn2 != null)
@@ -99,7 +102,7 @@ namespace VNCreator
         IEnumerator DisplayCurrentNode()
         {
             //Debug.Log("displ current node : " + currentNode.dialogueText);
-            
+            nbsOfChoices = currentNode.choices;
             characterNameTxt.text = currentNode.characterName;
             if (currentNode.characterSpr != null)
             {

@@ -9,13 +9,16 @@ namespace VNCreator
     public class VNCreator_EndScreen : MonoBehaviour
     {
         public Button restartButton;
+        public Button nextChapterButton;
         public Button mainMenuButton;
         [Scene]
         public string mainMenu;
+        public string nextChapter;
 
         void Start()
         {
             restartButton.onClick.AddListener(Restart);
+            nextChapterButton.onClick.AddListener(NextChapter);
             mainMenuButton.onClick.AddListener(MainMenu);
         }
 
@@ -25,6 +28,10 @@ namespace VNCreator
             SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         }
 
+        void NextChapter()
+        {
+            SceneManager.LoadScene(nextChapter, LoadSceneMode.Single);
+        }
         void MainMenu()
         {
             SceneManager.LoadScene(mainMenu, LoadSceneMode.Single);

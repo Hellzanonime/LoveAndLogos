@@ -24,7 +24,20 @@ namespace LoveAndLogos
         private bool isHover = true;
         [SerializeField]
         private Text hoverTxt;
+        [SerializeField]
+        private List<CardType> cardTypes;
         
+        public void DrawCard()
+        {
+            if (vnManager.nbsOfChoices == 2)
+            {
+                cardManager.DrawCardCollection(cardTypes);
+            }
+            else
+            {
+                cardManager.DrawEveryCardType();
+            }
+        }
         private void Update()
         {
             // if player is hovering card
@@ -70,36 +83,59 @@ namespace LoveAndLogos
             //check name of game object 
             //if 1 found calle node choice 0
             //ect
-            if (GameObject.Find("CardDialogueNeutral(Clone)") == null)
+            if (vnManager.nbsOfChoices == 3)
             {
-                //Debug.Log("didnt finf neutral card");
-                holder = GameObject.Find("CardDialogueFriendly(Clone)");
-                holder2 = GameObject.Find("CardDialogueHostile(Clone)");
-                cc.DestroyCard(holder.GetComponent<CardWrapper>());
-                cc.DestroyCard(holder2.GetComponent<CardWrapper>());
-                hoverTxt.text = " ";
-                vnManager.PlayNextNode(0);
-            }
-            else if (GameObject.Find("CardDialogueFriendly(Clone)") == null)
-            {
-                //Debug.Log("didnt finf friendly card");
-                holder = GameObject.Find("CardDialogueNeutral(Clone)");
-                holder2 = GameObject.Find("CardDialogueHostile(Clone)");
-                cc.DestroyCard(holder.GetComponent<CardWrapper>());
-                cc.DestroyCard(holder2.GetComponent<CardWrapper>());
-                hoverTxt.text = " ";
-                vnManager.PlayNextNode(1);
+                if (GameObject.Find("CardDialogueNeutral(Clone)") == null)
+                {
+                    //Debug.Log("didnt finf neutral card");
+                    holder = GameObject.Find("CardDialogueFriendly(Clone)");
+                    holder2 = GameObject.Find("CardDialogueHostile(Clone)");
+                    cc.DestroyCard(holder.GetComponent<CardWrapper>());
+                    cc.DestroyCard(holder2.GetComponent<CardWrapper>());
+                    hoverTxt.text = " ";
+                    vnManager.PlayNextNode(0);
+                }
+                else if (GameObject.Find("CardDialogueFriendly(Clone)") == null)
+                {
+                    //Debug.Log("didnt finf friendly card");
+                    holder = GameObject.Find("CardDialogueNeutral(Clone)");
+                    holder2 = GameObject.Find("CardDialogueHostile(Clone)");
+                    cc.DestroyCard(holder.GetComponent<CardWrapper>());
+                    cc.DestroyCard(holder2.GetComponent<CardWrapper>());
+                    hoverTxt.text = " ";
+                    vnManager.PlayNextNode(1);
+                }
+                else
+                {
+                    //Debug.Log("didnt finf evil card");
+                    holder = GameObject.Find("CardDialogueNeutral(Clone)");
+                    holder2 = GameObject.Find("CardDialogueFriendly(Clone)");
+                    cc.DestroyCard(holder.GetComponent<CardWrapper>());
+                    cc.DestroyCard(holder2.GetComponent<CardWrapper>());
+                    hoverTxt.text = " ";
+                    vnManager.PlayNextNode(2);
+                }
             }
             else
             {
-                //Debug.Log("didnt finf evil card");
-                holder = GameObject.Find("CardDialogueNeutral(Clone)");
-                holder2 = GameObject.Find("CardDialogueFriendly(Clone)");
-                cc.DestroyCard(holder.GetComponent<CardWrapper>());
-                cc.DestroyCard(holder2.GetComponent<CardWrapper>());
-                hoverTxt.text = " ";
-                vnManager.PlayNextNode(2);
+                if (GameObject.Find("CardDialogueNeutral(Clone)") == null)
+                {
+                    //Debug.Log("didnt finf neutral card");
+                    holder = GameObject.Find("CardDialogueFriendly(Clone)");
+                    cc.DestroyCard(holder.GetComponent<CardWrapper>());
+                    hoverTxt.text = " ";
+                    vnManager.PlayNextNode(0);
+                }
+                else 
+                {
+                    //Debug.Log("didnt finf friendly card");
+                    holder = GameObject.Find("CardDialogueNeutral(Clone)");
+                    cc.DestroyCard(holder.GetComponent<CardWrapper>());
+                    hoverTxt.text = " ";
+                    vnManager.PlayNextNode(1);
+                }
             }
+            
         }
     }
 }

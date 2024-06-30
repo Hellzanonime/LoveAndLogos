@@ -37,7 +37,7 @@ namespace LoveAndLogos
                 if (vnSys.dialogueTxt.text == musicTxt[i] && !musicChanged)
                 {
                     j = PlayerPrefs.GetInt("MusicTrack");
-                    if(j < 4)
+                    if(j < musicTxt.Length-1)
                     {
                         j++;
                         PlayerPrefs.SetInt("MusicTrack", j);
