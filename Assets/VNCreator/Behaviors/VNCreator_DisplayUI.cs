@@ -39,6 +39,8 @@ namespace VNCreator
         [Header("les choice text")]
         public string[] choicesTxt;
         public int nbsOfChoices;
+        [SerializeField]
+        private GameObject prevBtn;
         //public VNCreator_MusicSource vnMusic;
         //end modif
         [Header("End")]
@@ -50,8 +52,10 @@ namespace VNCreator
         void Start()
         {
             nextBtn.onClick.AddListener(delegate { NextNode(0); });
-            if(previousBtn != null)
-                previousBtn.onClick.AddListener(Previous);
+            //modif here
+            /*if(previousBtn != null)
+                previousBtn.onClick.AddListener(Previous);*/
+            //end modif
             if(saveBtn != null)
                 saveBtn.onClick.AddListener(Save);
             if (menuButton != null)
@@ -83,6 +87,12 @@ namespace VNCreator
             }
 
             base.NextNode(nodeID);
+
+            //modif here 
+            PlayerPrefs.SetInt("PseudoChanged", 0);
+            PlayerPrefs.SetInt("DialogueNameChanged", 0);
+            //end modif
+
             //Debug.Log("le num du choix de la node : " + nodeID);
             StartCoroutine(DisplayCurrentNode());
         }
@@ -94,7 +104,10 @@ namespace VNCreator
                 endScreen.SetActive(true);
                 return;
             }
-
+            //modif here 
+            PlayerPrefs.SetInt("PseudoChanged", 0);
+            PlayerPrefs.SetInt("DialogueNameChanged", 0);
+            //end modif
             base.NextNode(_choiceId);
             StartCoroutine(DisplayCurrentNode());
         }
@@ -128,8 +141,9 @@ namespace VNCreator
                 choiceBtn1.gameObject.SetActive(false);
                 choiceBtn2.gameObject.SetActive(false);
                 choiceBtn3.gameObject.SetActive(false);
-
-                previousBtn.gameObject.SetActive(loadList.Count != 1);
+                //mosif here
+                //previousBtn.gameObject.SetActive(loadList.Count != 1);
+                //end modif
             }
             else
             {

@@ -94,8 +94,19 @@ namespace CardPlay
 
             AddOtherComponentsIfNeeded(wrapper);
 
-            // Pass child card any extra config it should be aware of
+                // Pass child card any extra config it should be aware of                
             wrapper.zoomConfig = zoomConfig;
+                //modif here 
+               if (Application.platform == RuntimePlatform.Android)
+                {
+                    wrapper.zoomConfig.overrideYPosition = 80;
+                }
+                else
+                {
+                    wrapper.zoomConfig.overrideYPosition = 400;
+                }
+               Debug.Log("warpper y value : " +  wrapper.zoomConfig.overrideYPosition);
+                //end modif
             wrapper.animationSpeedConfig = animationSpeedConfig;
             wrapper.eventsConfig = eventsConfig;
             wrapper.container = this;

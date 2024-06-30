@@ -760,7 +760,7 @@ MonoBehaviour:
   choiceBtn1: {fileID: 1936178657}
   choiceBtn2: {fileID: 1895473283}
   choiceBtn3: {fileID: 597330264}
-  cardBtn: {fileID: 0}
+  cardBtn: {fileID: 843084697}
   Cards: {fileID: 1992869408}
   hoverTxt: {fileID: 697107945}
   vnSFX: {fileID: 2138043837}
@@ -2384,79 +2384,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697107942}
   m_CullTransparentMesh: 1
---- !u!1001 &717445979
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1933063307462451087, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: affinityScores._serializedList.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1933063307462451087, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: affinityScores._serializedList.Array.data[0].Key
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1933063307462451087, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: affinityScores._serializedList.Array.data[1].Key
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1933063307462451087, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: affinityScores._serializedList.Array.data[2].Key
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 231.06944
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 233.57683
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.760574
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372195254832872066, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8686550245213425253, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
-      propertyPath: m_Name
-      value: AffinityManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1fe40838ffbd60341ac9123dd177f353, type: 3}
 --- !u!1 &795534699
 GameObject:
   m_ObjectHideFlags: 0
@@ -4410,21 +4337,22 @@ MonoBehaviour:
   loopSource: {fileID: 1735954050}
   vnSys: {fileID: 331025069}
   intros:
-  - {fileID: 8300000, guid: f996032d86c8be44594aea3b13d52472, type: 3}
   - {fileID: 8300000, guid: 78cdba8820f11554ab8774fd29f241e6, type: 3}
+  - {fileID: 8300000, guid: f996032d86c8be44594aea3b13d52472, type: 3}
   - {fileID: 8300000, guid: 526b4217f0b2006479eee5ad4c1e2427, type: 3}
-  - {fileID: 8300000, guid: 38360d468275f8146821cc313a845d20, type: 3}
+  - {fileID: 8300000, guid: f996032d86c8be44594aea3b13d52472, type: 3}
   loops:
-  - {fileID: 8300000, guid: 68e25ebb5ced82544a5636b6e8e32888, type: 3}
   - {fileID: 8300000, guid: 9054f7850952120488186e3d0dbecc74, type: 3}
+  - {fileID: 8300000, guid: 68e25ebb5ced82544a5636b6e8e32888, type: 3}
   - {fileID: 8300000, guid: e8013bd864729354ca604effd90de7dc, type: 3}
-  - {fileID: 8300000, guid: 4b0e45833c99ec640a350ab5956032fa, type: 3}
+  - {fileID: 8300000, guid: 68e25ebb5ced82544a5636b6e8e32888, type: 3}
   musicTxt:
-  - 'At some point, I must have dozed off '
-  - Which final am I taking first?
-  - nope
-  - none
-  musicChanged: 0
+  - "We must be en route to the Heliaia right now\u2026 "
+  - '"Gathered in this chamber are five-hundred honorable members of the polis."'
+  - "The crowd loudly excuses itself. Some linger in small groups to gossip amongst
+    themselves. Phew. Glad that\u2019s over. Who knew fighting for your right to
+    live is so stressful? "
+  musicChanged: 1
 --- !u!82 &1735954050
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5630,7 +5558,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 717445979}
   - {fileID: 973156628}
   - {fileID: 150210806}
   - {fileID: 1738782547}

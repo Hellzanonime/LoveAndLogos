@@ -121,7 +121,7 @@ namespace CardPlay
         if (zoomConfig.bringToFrontOnHover) {
             canvas.sortingOrder = zoomConfig.zoomedSortOrder;
         }
-
+            //Debug.Log("ont pointer enter");
         // eventsConfig?.OnCardHover?.Invoke(new CardHover(this));
         eventsConfig?.OnCardHover?.Invoke(new CardHover(this));
         isHovered = true;

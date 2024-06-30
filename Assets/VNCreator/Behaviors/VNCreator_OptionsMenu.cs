@@ -18,7 +18,6 @@ namespace VNCreator
         public GameObject mainMenu;
 
         //modif here
-        public VNCreator_MainMenu vnMM;
         [SerializeField]
         private AudioSource musicSource;
         //end modif 
@@ -26,7 +25,7 @@ namespace VNCreator
         void Start()
         {
             GameOptions.InitilizeOptions();
-
+            UpdateMusicVilMM();
             if(musicVolumeSlider != null)
             {
                 musicVolumeSlider.value = GameOptions.musicVolume;

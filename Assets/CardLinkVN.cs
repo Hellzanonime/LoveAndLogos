@@ -47,6 +47,11 @@ namespace LoveAndLogos
             }
         }
 
+        public void TestingHoverCard()
+        {
+            StartCoroutine(CardHoverText());
+        }
+
         IEnumerator CardHoverText()
         {
             isHover = false;
