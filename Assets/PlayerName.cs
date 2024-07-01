@@ -10,7 +10,7 @@ public class PlayerName : MonoBehaviour
     [SerializeField]
     private string playerHolder;    
     [SerializeField]
-    private Text dialogueText, characterNamesTxt;
+    private Text dialogueText, characterNamesTxt, hoverTxt;
     [SerializeField]
     private string scenename;
     // PlayerPseudo
@@ -42,6 +42,10 @@ public class PlayerName : MonoBehaviour
             //Debug.Log("XXX trouver");            
             dialogueText.text = dialogueText.text.Replace("XXX", playerHolder);
             StartCoroutine(WaitTimeDialogueupdate());
+        }
+        if (hoverTxt.text.Contains("XXX") && PlayerPrefs.GetInt("HoverChanged") == 0)
+        {
+            hoverTxt.text = hoverTxt.text.Replace("XXX", playerHolder);
         }
     }
 

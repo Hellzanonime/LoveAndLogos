@@ -634,7 +634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &301859424
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2864,6 +2864,7 @@ MonoBehaviour:
   playerHolder: 
   dialogueText: {fileID: 2006358099}
   characterNamesTxt: {fileID: 2044344245}
+  hoverTxt: {fileID: 697107945}
   scenename: 
 --- !u!4 &874988345
 Transform:
@@ -4414,9 +4415,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9054f7850952120488186e3d0dbecc74, type: 3}
   musicTxt:
   - ...I
-  - ' . '
+  - Courting
   - '"Get in there!"'
   musicChanged: 0
+  leTxt: 
 --- !u!1001 &1738782547
 PrefabInstance:
   m_ObjectHideFlags: 0

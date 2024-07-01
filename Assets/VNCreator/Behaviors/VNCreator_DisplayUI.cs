@@ -22,7 +22,9 @@ namespace VNCreator
         public Button nextBtn;
         public Button previousBtn;
         public Button saveBtn;
+        //modif here to make end screen bttuuton working
         public Button endSaveBtn;
+        // end modif 
         public Button menuButton;
         [Header("Choices")]
         public Button choiceBtn1;

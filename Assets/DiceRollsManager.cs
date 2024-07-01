@@ -66,10 +66,10 @@ public class DiceRollsManager : MonoBehaviour
             //succes
             diceTxt1.text = dice1.ToString();
             diceTxt2.text = dice2.ToString();
-            mainTxt.GetComponent<Text>().text = "Succes";
+            mainTxt.GetComponent<Text>().text = "Success";
             if (dice2 + dice1 == 12)
             {
-                mainTxt.GetComponent<Text>().text = "Critical Succes";
+                mainTxt.GetComponent<Text>().text = "Critical Success";
             }
             //display results 
             acceptSBtn.SetActive(true);            
