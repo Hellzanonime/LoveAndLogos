@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using CardPlay.Events;
 using LoveAndLogos;
 using UnityEngine;
@@ -15,11 +16,33 @@ namespace CardPlay
         }
 
         public void OnCardHover(CardHover cardHover) {
-            cardDeckManager.ShowHoveringDescription(cardHover.card.playableCard.cardType);
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                //deactivat this when on phone it's bugging with the dragging 
+                Debug.Log("in android ?");
+            }
+            else
+            {
+                Debug.Log(((int)cardHover.card.playableCard.cardType));
+                PlayerPrefs.SetInt("HoverCard", 1);
+                PlayerPrefs.SetInt("CardNature", ((int)cardHover.card.playableCard.cardType));
+            }
+            //Debug.Log("do you work on hover ?????");
+            //cardDeckManager.ShowHoveringDescription(cardHover.card.playableCard.cardType);
         }
         
         public void OnCardUnhover() {
-            cardDeckManager.HideHoveringDescription();
+            if(Application.platform == RuntimePlatform.Android)
+            {
+                //debuging the draggin phone
+            }
+            else
+            {
+                PlayerPrefs.SetInt("HoverCard", 0);
+                PlayerPrefs.SetInt("CardNature", 0);
+                cardDeckManager.HideHoveringDescription();
+            }
+            
         }
     }
 }

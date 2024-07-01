@@ -7,6 +7,7 @@ using UnityEditor.Experimental.GraphView;
 #endif
 using UnityEngine;
 using UnityEngine.UIElements;
+using LoveAndLogos;
 
 namespace VNCreator.Editors.Graph
 {
@@ -40,6 +41,7 @@ namespace VNCreator.Editors.Graph
 
         public BaseNode CreateNode(string _nodeName, Vector2 _mousePos, int choiceAmount, List<string> _choices, bool _startNode, bool _endNode, NodeData _data)
         {
+            //Debug.Log("choice amount of node created = " + choiceAmount);
             BaseNode _node = new BaseNode(_data);
 
             _node.title = _nodeName;

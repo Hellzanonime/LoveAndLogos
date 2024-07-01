@@ -94,8 +94,19 @@ namespace CardPlay
 
             AddOtherComponentsIfNeeded(wrapper);
 
-            // Pass child card any extra config it should be aware of
+                // Pass child card any extra config it should be aware of                
             wrapper.zoomConfig = zoomConfig;
+                //modif here 
+               if (Application.platform == RuntimePlatform.Android)
+                {
+                    wrapper.zoomConfig.overrideYPosition = 80;
+                }
+                else
+                {
+                    wrapper.zoomConfig.overrideYPosition = 400;
+                }
+               Debug.Log("warpper y value : " +  wrapper.zoomConfig.overrideYPosition);
+                //end modif
             wrapper.animationSpeedConfig = animationSpeedConfig;
             wrapper.eventsConfig = eventsConfig;
             wrapper.container = this;
@@ -212,6 +223,13 @@ namespace CardPlay
 
     public void OnCardDragStart(CardWrapper card) {
         currentDraggedCard = card;
+        Debug.Log("card is draged");
+        
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            PlayerPrefs.SetInt("HoverCard", 1);
+            PlayerPrefs.SetInt("CardNature", ((int)card.playableCard.cardType));
+        }
     }
 
     public void OnCardDragEnd() {
@@ -223,6 +241,13 @@ namespace CardPlay
                 DestroyCard(currentDraggedCard);
             }
         }
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            PlayerPrefs.SetInt("HoverCard", 0);
+            Debug.Log("card is NOT draged");
+        }
+            
+
         currentDraggedCard = null;
     }
 

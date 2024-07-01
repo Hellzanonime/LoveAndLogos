@@ -20,8 +20,8 @@ namespace VNCreator
             source.volume = GameOptions.musicVolume;
         }
 
-        public void Play(AudioClip clip)
-        {
+        public void PlayMusicClip(AudioClip clip)
+        {// addes MusicClip after Play
             source.clip = clip;
             source.Play();
         }

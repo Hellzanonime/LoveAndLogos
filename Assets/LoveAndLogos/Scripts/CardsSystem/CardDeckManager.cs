@@ -1,9 +1,11 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using AYellowpaper.SerializedCollections;
+using LoveAndLogos;
 
 // namespace LoveAndLogos
 namespace LoveAndLogos
@@ -16,7 +18,11 @@ namespace LoveAndLogos
         [SerializeField] private GameObject cardContainer;
         [SerializeField] private GameObject hoveringDescriptionBox;
         [SerializeField] private Text hoveringDescriptionText;
-        
+        //modif here
+        [SerializeField]
+        private GameObject fatesBtn;
+        public string choiceTxt; 
+        //end modif
         [Header("Properties")] 
         [SerializedDictionary("Card Type", "Prefab")]
         public SerializedDictionary<CardType, GameObject> cardTypeObjectMap;
@@ -28,7 +34,7 @@ namespace LoveAndLogos
         private void _DrawCardFromType(CardType cardType)
         {
             var card = Instantiate(cardTypeObjectMap[cardType], new Vector3(0, 0, 0), Quaternion.identity);
-            card.transform.parent = cardContainer.transform;
+            card.transform.parent = cardContainer.transform;            
         }
 
         /*
@@ -42,6 +48,8 @@ namespace LoveAndLogos
             {
                 _DrawCardFromType(cardType);
             }
+            fatesBtn.SetActive(false);
+            //Debug.Log("is his were we draw : each card of list");
         }
 
         /*
@@ -50,6 +58,8 @@ namespace LoveAndLogos
         public void DrawEveryCardType()
         {
             DrawCardCollection(new List<CardType>(Enum.GetValues(typeof(CardType)).Cast<CardType>()));
+            fatesBtn.SetActive(false);
+            //Debug.Log("is his were we draw : every");
         }
 
         /*
@@ -60,8 +70,9 @@ namespace LoveAndLogos
         private String _GetDescription(CardType cardType)
         {
             // TODO
-            return "("+ cardType + ") " +
-                   "Placeholder description with card text. Will get extracted from the CardType + Context combination in the future";
+            //Debug.Log("les text des choix : " + choiceTxt);
+            return /*"("+ cardType + ") " +*/ choiceTxt 
+                   /* + "Placeholder description with card text. Will get extracted from the CardType + Context combination in the future"*/;
         }
 
         /*
@@ -71,12 +82,11 @@ namespace LoveAndLogos
         public void ShowHoveringDescription(CardType cardType)
         {
             var description = _GetDescription(cardType);
-            
             // hoveringDescriptionText [should be equal to] hoveringDescriptionBox.transform.GetChild(0).gameObject.GetComponent<Text>()
             // Maybe use it in the future if we plan to reduce serialized objects
             hoveringDescriptionText.text = description;
-            
             hoveringDescriptionBox.gameObject.SetActive(true);
+            
         }
 
         /*

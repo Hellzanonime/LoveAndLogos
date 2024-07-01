@@ -19,7 +19,7 @@ namespace VNCreator
             source.volume = GameOptions.sfxVolume;
         }
 
-        public void Play(AudioClip clip)
+        public void PlayClip(AudioClip clip)//adde Clip after Play
         {
             source.clip = clip;
             source.Play();
