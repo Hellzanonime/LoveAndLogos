@@ -10,7 +10,7 @@ namespace LoveAndLogos
     public class LLMusicManager : MonoBehaviour
     {
         [SerializeField]
-        private AudioSource introSource, loopSource;
+        private AudioSource musicsource;
         private int j;
         [SerializeField]
         private VNCreator_DisplayUI vnSys;
@@ -21,11 +21,13 @@ namespace LoveAndLogos
         [Header("Musical Cues")]
         public string[] musicTxt;
         public bool musicChanged = false;
+        [SerializeField]
+        private string leTxt;
         //private StoryObject storyManager;
         private void Awake()
         {
-            introSource.volume = PlayerPrefs.GetFloat("MusicVolume");
-            loopSource.volume = PlayerPrefs.GetFloat("MusicVolume");
+            musicsource.volume = PlayerPrefs.GetFloat("MusicVolume");
+            j = PlayerPrefs.GetInt("MusicTrack");
             StartCoroutine(LoopingTrack());            
         }
 
@@ -34,15 +36,22 @@ namespace LoveAndLogos
         {
             for (int i = 0; i < musicTxt.Length; i++)
             {
+                Debug.Log(" for text : " + vnSys.dialogueTxt.text + "j : " + j);
+                leTxt = vnSys.dialogueTxt.text;
                 if (vnSys.dialogueTxt.text == musicTxt[i] && !musicChanged)
                 {
                     j = PlayerPrefs.GetInt("MusicTrack");
-                    if(j < musicTxt.Length-1)
+                    Debug.Log("text : " + vnSys.dialogueTxt.text + "j : " + j);
+                    if(j < musicTxt.Length)
                     {
                         j++;
                         PlayerPrefs.SetInt("MusicTrack", j);
                         ChangeTrack();
                     }                
+                }
+                else
+                {
+                    //musicChanged = false;
                 }
             }
             
@@ -52,28 +61,23 @@ namespace LoveAndLogos
         {
             musicChanged = true;
             StartCoroutine(LoopingTrack());
+            StartCoroutine(ChangingBool());
         }
-
-        IEnumerator ChangingTrack()
+        IEnumerator ChangingBool()
         {
-            introSource.volume = PlayerPrefs.GetFloat("MusicVolume");
-            introSource.clip = intros[j];
-            introSource.Play();
-            yield return new WaitForSeconds(intros[j].length);
+            yield return new WaitForSeconds(15f);
             musicChanged = false;
-            Debug.Log("le text ref = le text dialogue");
         }
 
         IEnumerator LoopingTrack()
         {
-            introSource.clip = intros[j];
-            loopSource.Stop();
-            introSource.Play();
+            musicsource.clip = intros[j];
+            musicsource.loop = false;
+            musicsource.Play();
             yield return new WaitForSeconds(intros[j].length);
-            loopSource.clip = loops[j];
-            loopSource.loop = true;
-            loopSource.Play();
-            musicChanged = false;
+            musicsource.clip = loops[j];
+            musicsource.loop = true;
+            musicsource.Play();
         }
     }
 }

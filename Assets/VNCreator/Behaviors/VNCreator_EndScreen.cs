@@ -14,12 +14,15 @@ namespace VNCreator
         [Scene]
         public string mainMenu;
         public string nextChapter;
+        [SerializeField]
+        private GameObject MainStuff;
 
         void Start()
         {
             restartButton.onClick.AddListener(Restart);
             nextChapterButton.onClick.AddListener(NextChapter);
             mainMenuButton.onClick.AddListener(MainMenu);
+            MainStuff.SetActive(false);
         }
 
         void Restart()

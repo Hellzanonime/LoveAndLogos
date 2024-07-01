@@ -48,6 +48,7 @@ namespace LoveAndLogos
             {
                 _DrawCardFromType(cardType);
             }
+            fatesBtn.SetActive(false);
             //Debug.Log("is his were we draw : each card of list");
         }
 

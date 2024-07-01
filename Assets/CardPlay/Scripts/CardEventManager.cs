@@ -19,13 +19,15 @@ namespace CardPlay
             if (Application.platform == RuntimePlatform.Android)
             {
                 //deactivat this when on phone it's bugging with the dragging 
+                Debug.Log("in android ?");
             }
             else
             {
                 Debug.Log(((int)cardHover.card.playableCard.cardType));
                 PlayerPrefs.SetInt("HoverCard", 1);
                 PlayerPrefs.SetInt("CardNature", ((int)cardHover.card.playableCard.cardType));
-            }            
+            }
+            //Debug.Log("do you work on hover ?????");
             //cardDeckManager.ShowHoveringDescription(cardHover.card.playableCard.cardType);
         }
         
