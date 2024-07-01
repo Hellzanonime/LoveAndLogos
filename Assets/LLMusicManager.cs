@@ -21,10 +21,13 @@ namespace LoveAndLogos
         [Header("Musical Cues")]
         public string[] musicTxt;
         public bool musicChanged = false;
+        [SerializeField]
+        private string leTxt;
         //private StoryObject storyManager;
         private void Awake()
         {
             musicsource.volume = PlayerPrefs.GetFloat("MusicVolume");
+            j = PlayerPrefs.GetInt("MusicTrack");
             StartCoroutine(LoopingTrack());            
         }
 
@@ -33,9 +36,12 @@ namespace LoveAndLogos
         {
             for (int i = 0; i < musicTxt.Length; i++)
             {
+                Debug.Log(" for text : " + vnSys.dialogueTxt.text + "j : " + j);
+                leTxt = vnSys.dialogueTxt.text;
                 if (vnSys.dialogueTxt.text == musicTxt[i] && !musicChanged)
                 {
                     j = PlayerPrefs.GetInt("MusicTrack");
+                    Debug.Log("text : " + vnSys.dialogueTxt.text + "j : " + j);
                     if(j < musicTxt.Length)
                     {
                         j++;

@@ -1052,7 +1052,7 @@ MonoBehaviour:
   - ' '
   - ' '
   nbsOfChoices: 0
-  prevBtn: {fileID: 0}
+  prevBtn: {fileID: 1720581423}
   endScreen: {fileID: 894647848}
   mainMenu: Assets/LoveAndLogos/Scenes/LL_MainMenu.unity
 --- !u!4 &331025070
@@ -1675,7 +1675,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2869,7 +2869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.3529412}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4264,10 +4264,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2022363369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000020981, y: -380.33}
-  m_SizeDelta: {x: 1394.1587, y: 2279.3464}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.000020981, y: 1048.3981}
+  m_SizeDelta: {x: 1394.1587, y: 2096.8025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1346703342
 MonoBehaviour:
@@ -5613,12 +5613,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e8013bd864729354ca604effd90de7dc, type: 3}
   - {fileID: 8300000, guid: 68e25ebb5ced82544a5636b6e8e32888, type: 3}
   musicTxt:
-  - "We must be en route to the Heliaia right now\u2026 "
+  - Ok, so everything hurts. Lovely.
   - '"Gathered in this chamber are five-hundred honorable members of the polis."'
   - "The crowd loudly excuses itself. Some linger in small groups to gossip amongst
     themselves. Phew. Glad that\u2019s over. Who knew fighting for your right to
     live is so stressful? "
-  musicChanged: 1
+  musicChanged: 0
+  leTxt: 
 --- !u!82 &1735954050
 AudioSource:
   m_ObjectHideFlags: 0
