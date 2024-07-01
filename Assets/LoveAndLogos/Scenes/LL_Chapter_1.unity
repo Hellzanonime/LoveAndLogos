@@ -759,6 +759,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227308751}
   m_CullTransparentMesh: 1
+--- !u!1 &251200604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 251200605}
+  - component: {fileID: 251200606}
+  m_Layer: 0
+  m_Name: SceneTraces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &251200605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251200604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 522.80756, y: 1533.7764, z: -0.005196017}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &251200606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251200604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87944019a4126aa498e3f28b4b55586c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &286114695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,7 +1082,7 @@ MonoBehaviour:
   nextBtn: {fileID: 1607966232}
   previousBtn: {fileID: 1720581425}
   saveBtn: {fileID: 227308753}
-  endSaveBtn: {fileID: 494567006}
+  endSaveBtn: {fileID: 0}
   menuButton: {fileID: 989486453}
   choiceBtn1: {fileID: 1936178657}
   choiceBtn2: {fileID: 1895473283}
@@ -5607,17 +5651,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f996032d86c8be44594aea3b13d52472, type: 3}
   - {fileID: 8300000, guid: 526b4217f0b2006479eee5ad4c1e2427, type: 3}
   - {fileID: 8300000, guid: f996032d86c8be44594aea3b13d52472, type: 3}
+  - {fileID: 8300000, guid: 78cdba8820f11554ab8774fd29f241e6, type: 3}
   loops:
   - {fileID: 8300000, guid: 9054f7850952120488186e3d0dbecc74, type: 3}
   - {fileID: 8300000, guid: 68e25ebb5ced82544a5636b6e8e32888, type: 3}
   - {fileID: 8300000, guid: e8013bd864729354ca604effd90de7dc, type: 3}
   - {fileID: 8300000, guid: 68e25ebb5ced82544a5636b6e8e32888, type: 3}
+  - {fileID: 8300000, guid: 9054f7850952120488186e3d0dbecc74, type: 3}
   musicTxt:
-  - Ok, so everything hurts. Lovely.
-  - '"Gathered in this chamber are five-hundred honorable members of the polis."'
-  - "The crowd loudly excuses itself. Some linger in small groups to gossip amongst
-    themselves. Phew. Glad that\u2019s over. Who knew fighting for your right to
-    live is so stressful? "
+  - 'cycle '
+  - 'Gathered '
+  - 'pack '
+  - HUH?
   musicChanged: 0
   leTxt: 
 --- !u!82 &1735954050
@@ -6003,6 +6048,7 @@ MonoBehaviour:
   playerHolder: 
   dialogueText: {fileID: 2006358099}
   characterNamesTxt: {fileID: 2044344245}
+  hoverTxt: {fileID: 0}
   scenename: 
 --- !u!4 &1851401197
 Transform:
@@ -6737,8 +6783,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.08999634, y: -83.12}
-  m_SizeDelta: {x: 777.20605, y: 100.95}
+  m_AnchoredPosition: {x: 20.217285, y: -99}
+  m_SizeDelta: {x: 1065.6414, y: 100.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044344244
 MonoBehaviour:
@@ -7075,3 +7121,4 @@ SceneRoots:
   - {fileID: 625847176}
   - {fileID: 1332162508}
   - {fileID: 2138043836}
+  - {fileID: 251200605}

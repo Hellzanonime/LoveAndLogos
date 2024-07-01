@@ -409,26 +409,26 @@ MonoBehaviour:
   - guid: 630887cb-e1e7-4991-8acd-2ccd885d8831
     targetGuid: 115bc56a-213f-46f3-9b54-6708a2904284
     portId: 131
-  - guid: 1d8968f8-f805-4366-a1e4-17be03e8a23a
-    targetGuid: ba606330-ca9c-4d76-96d5-74f59f8dd3cb
-    portId: 132
   - guid: f3b23198-f457-40f8-a610-f19aa4d9d3f3
     targetGuid: c3f7af0b-e4b0-496b-9211-c28d5be01ca3
-    portId: 133
+    portId: 132
   - guid: 7af05a8b-1172-4da6-82ba-b1719d63bf9e
     targetGuid: 56dace26-b5f4-4018-ae74-02bee8d3b8f6
-    portId: 134
+    portId: 133
   - guid: cf511a3a-d676-4caa-a8de-e7ba77680d51
     targetGuid: 323400a1-d620-444c-b6ca-1a76f5b91367
-    portId: 135
+    portId: 134
   - guid: 5682adb0-5e64-4ca5-b0dc-469d6d400cb2
     targetGuid: 630887cb-e1e7-4991-8acd-2ccd885d8831
-    portId: 136
+    portId: 135
   - guid: 8a8d9d0f-7374-44d2-82b0-1c74505fa40c
     targetGuid: 88c708d6-5c5f-48b8-a607-9fb83d68f979
-    portId: 137
+    portId: 136
   - guid: 5b7ed627-5fd7-4772-88e0-4a5f5eec0006
     targetGuid: 9548841b-6e5f-4794-b92b-ce81da2ffe51
+    portId: 137
+  - guid: 1d8968f8-f805-4366-a1e4-17be03e8a23a
+    targetGuid: ba606330-ca9c-4d76-96d5-74f59f8dd3cb
     portId: 138
   nodes:
   - guid: e8ac6ec7-a059-4003-a822-3bfa154d5a33
@@ -479,7 +479,7 @@ MonoBehaviour:
   - guid: 115bc56a-213f-46f3-9b54-6708a2904284
     characterSpr: {fileID: 21300000, guid: 3a73c787caa472e48b1098d056e22e89, type: 3}
     characterName: 
-    dialogueText: ' . '
+    dialogueText: Courting the classics
     backgroundSpr: {fileID: 21300000, guid: 86e7da9a5bf6ab04392925cbbe51a39e, type: 3}
     startNode: 0
     endNode: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
       bonusAmount: 0
   - guid: 32873a2d-5211-453d-a29d-98443031699c
     characterSpr: {fileID: 0}
-    characterName: XXX
+    characterName: 
     dialogueText: "Which final am I taking first? I hope it\u2019s the modern thinkers\u2019
       one; I\u2019m definitely behind on my re-reading of Plato\u2019s Republic.\r\r"
     backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
@@ -1511,7 +1511,7 @@ MonoBehaviour:
       bonusAmount: 0
   - guid: 9708138c-e47f-4a2a-add2-7d28651734b5
     characterSpr: {fileID: 0}
-    characterName: XXX
+    characterName: 
     dialogueText: "But blaming some ancient dude for my own poor organization isn\u2019t
       going to help me at this point\u2026\r"
     backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
@@ -1531,31 +1531,9 @@ MonoBehaviour:
     affinityBonus:
       loveInterest: 1
       bonusAmount: 1
-  - guid: d816b66f-43eb-4bad-a54c-107aec559db9
-    characterSpr: {fileID: 0}
-    characterName: XXX
-    dialogueText: "But blaming some ancient dude for my own poor organization isn\u2019t
-      going to help me at this point\u2026\r"
-    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3340
-      y: 198
-      width: 499
-      height: 320
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    affinityBonus:
-      loveInterest: 2
-      bonusAmount: 1
   - guid: 7359ad5b-b4aa-484d-b7ab-490d1a5281ce
     characterSpr: {fileID: 0}
-    characterName: XXX
+    characterName: 
     dialogueText: "But blaming some ancient dude for my own poor organization isn\u2019t
       going to help me at this point\u2026\r"
     backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
@@ -1599,7 +1577,7 @@ MonoBehaviour:
       bonusAmount: 0
   - guid: 5f5ec916-ccd0-47b4-ae50-a6694b621dd7
     characterSpr: {fileID: 0}
-    characterName: Player
+    characterName: 
     dialogueText: "Quickly, now\u2026\r\r"
     backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
     startNode: 0
@@ -1883,7 +1861,7 @@ MonoBehaviour:
       bonusAmount: 0
   - guid: 8becf1df-d670-45f9-a9a8-75d7bb031e6f
     characterSpr: {fileID: 0}
-    characterName: XXX
+    characterName: 
     dialogueText: "Thankfully, it will all be over soon. Just a bit more, XXX!\r\r"
     backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
     startNode: 0
@@ -3092,3 +3070,25 @@ MonoBehaviour:
     affinityBonus:
       loveInterest: 0
       bonusAmount: 0
+  - guid: d816b66f-43eb-4bad-a54c-107aec559db9
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "But blaming some ancient dude for my own poor organization isn\u2019t
+      going to help me at this point\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: a0699e9c72a26d0409c578cdfcc6530f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3340
+      y: 198
+      width: 499
+      height: 320
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    affinityBonus:
+      loveInterest: 2
+      bonusAmount: 1

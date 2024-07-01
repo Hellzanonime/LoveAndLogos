@@ -23,6 +23,7 @@ namespace LoveAndLogos
         public bool musicChanged = false;
         [SerializeField]
         private string leTxt;
+        private int holder;
         //private StoryObject storyManager;
         private void Awake()
         {
@@ -34,34 +35,40 @@ namespace LoveAndLogos
         // Update is called once per frame
         void Update()
         {
-            for (int i = 0; i < musicTxt.Length; i++)
+            if(holder <= musicTxt.Length)
             {
-                Debug.Log(" for text : " + vnSys.dialogueTxt.text + "j : " + j);
-                leTxt = vnSys.dialogueTxt.text;
-                if (vnSys.dialogueTxt.text == musicTxt[i] && !musicChanged)
+                Debug.Log("holder : " + holder);
+                for (int i = holder; i < musicTxt.Length; i++)
                 {
-                    j = PlayerPrefs.GetInt("MusicTrack");
-                    Debug.Log("text : " + vnSys.dialogueTxt.text + "j : " + j);
-                    if(j < musicTxt.Length)
+                    //Debug.Log(" for text : " + vnSys.dialogueTxt.text + "j : " + j);
+                    leTxt = vnSys.dialogueTxt.text;
+                    if (/*vnSys.dialogueTxt.text == musicTxt[i]*/ vnSys.dialogueTxt.text.Contains(musicTxt[i]) && !musicChanged)
                     {
-                        j++;
-                        PlayerPrefs.SetInt("MusicTrack", j);
-                        ChangeTrack();
-                    }                
+                        j = PlayerPrefs.GetInt("MusicTrack");
+                        holder++;
+                        //Debug.Log("text : " + vnSys.dialogueTxt.text + "j : " + j);
+                        if (j < musicTxt.Length)
+                        {
+                            j++;
+                            PlayerPrefs.SetInt("MusicTrack", j);
+                            ChangeTrack();
+                        }
+                    }
+                    else
+                    {
+                        //musicChanged = false;
+                        return;
+                    }
                 }
-                else
-                {
-                    //musicChanged = false;
-                }
-            }
+            }         
             
         }
 
         void ChangeTrack()
         {
-            musicChanged = true;
             StartCoroutine(LoopingTrack());
             StartCoroutine(ChangingBool());
+            musicChanged = true;
         }
         IEnumerator ChangingBool()
         {

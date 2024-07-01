@@ -33,6 +33,7 @@ namespace VNCreator
 
         void NextChapter()
         {
+            PlayerPrefs.SetInt("MusicTrack", 0);
             SceneManager.LoadScene(nextChapter, LoadSceneMode.Single);
         }
         void MainMenu()

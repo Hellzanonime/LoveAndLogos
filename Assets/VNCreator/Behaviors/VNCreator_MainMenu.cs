@@ -16,7 +16,7 @@ namespace VNCreator
 
         [Header("")]
         [Scene]
-        public string playScene,continueScene;
+        public string playScene, chapter1;
 
         [Header("Menu Objects")]
         public GameObject optionsMenu;
@@ -42,13 +42,22 @@ namespace VNCreator
         void NewGame()
         {
             GameSaveManager.NewLoad("MainGame");
-            SceneManager.LoadScene(playScene, LoadSceneMode.Single);
+            SceneManager.LoadScene("LL_Player", LoadSceneMode.Single);
         }
 
         void LoadGame()
         {
-            GameSaveManager.currentLoadName = "MainGame";
-            SceneManager.LoadScene(continueScene, LoadSceneMode.Single);
+            if (GameObject.Find("SceneTraces"))
+            {
+                GameSaveManager.currentLoadName = "MainGame2";
+                SceneManager.LoadScene(chapter1, LoadSceneMode.Single);
+            }
+            else
+            {
+                GameSaveManager.currentLoadName = "MainGame";
+                SceneManager.LoadScene(playScene, LoadSceneMode.Single);
+            }
+            
         }
 
         void DisplayOptionsMenu()
